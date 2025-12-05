@@ -251,10 +251,8 @@ Answer: Alex is the tallest.
 ### Example 3: Code Analysis
 
 **Prompt:**
-```markdown
-This function should return the sum of even numbers in a list,
-but it's returning incorrect results. Trace through the logic
-step by step to find the bug.
+
+> This function should return the sum of even numbers in a list, but it's returning incorrect results. Trace through the logic step by step to find the bug.
 
 ```python
 def sum_even(numbers):
@@ -264,10 +262,10 @@ def sum_even(numbers):
             total = n
     return total
 ```
-```
 
 **Response:**
-```markdown
+
+```text
 Let me trace through the function step by step.
 
 Step 1: Identify the purpose
@@ -281,20 +279,18 @@ Step 2: Trace execution with example [2, 4, 6]
 - Returns 6
 
 Step 3: Identify the bug
-The line `total = n` REPLACES the total instead of
-ADDING to it. It should be `total += n` or `total = total + n`
+The line "total = n" REPLACES the total instead of
+ADDING to it. It should be "total += n" or "total = total + n"
 
 Step 4: Corrected code
-```python
 def sum_even(numbers):
     total = 0
     for n in numbers:
         if n % 2 == 0:
             total += n  # Changed from total = n
     return total
-```
 
-Answer: The bug is on line 5. Use `total += n` instead of `total = n`.
+Answer: The bug is on line 5. Use "total += n" instead of "total = n".
 ```
 
 ---
