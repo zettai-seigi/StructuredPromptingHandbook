@@ -32,30 +32,6 @@ After completing this chapter, you will be able to:
 
 Effective prompting follows consistent principles:
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    PROMPTING BEST PRACTICES                     │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  BE CLEAR         BE SPECIFIC       BE COMPLETE                │
-│  ┌─────────┐     ┌─────────┐       ┌─────────┐                │
-│  │ State   │     │ Define  │       │ Include │                │
-│  │ intent  │     │ exactly │       │ all     │                │
-│  │ clearly │     │ what    │       │ needed  │                │
-│  │         │     │ you want│       │ info    │                │
-│  └─────────┘     └─────────┘       └─────────┘                │
-│                                                                 │
-│  BE STRUCTURED    BE ITERATIVE      BE HUMBLE                  │
-│  ┌─────────┐     ┌─────────┐       ┌─────────┐                │
-│  │ Use     │     │ Refine  │       │ Accept  │                │
-│  │ formats │     │ based   │       │ AI      │                │
-│  │ and     │     │ on      │       │ limita- │                │
-│  │ patterns│     │ results │       │ tions   │                │
-│  └─────────┘     └─────────┘       └─────────┘                │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ![Six-box grid showing core prompting best practices. Top row: BE CLEAR (blue) - State intent clearly; BE SPECIFIC (teal) - Define exactly what you want; BE COMPLETE (orange) - Include all needed info. Bottom row: BE STRUCTURED (green) - Use formats and patterns; BE ITERATIVE (info blue) - Refine based on results; BE HUMBLE (purple) - Accept AI limitations. Each principle has a short description of its key action.]({{ site.baseurl }}/images/Figure_18.1.jpeg){: .img-fluid }
 *Figure 18.1: The six core principles of prompting best practices—clarity, specificity, completeness, structure, iteration, and humility.*
 

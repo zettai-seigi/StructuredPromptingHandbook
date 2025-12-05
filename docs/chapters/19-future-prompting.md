@@ -30,31 +30,6 @@ After completing this chapter, you will be able to:
 
 ### Where We've Been, Where We're Going
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    PROMPTING EVOLUTION                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  PAST                  PRESENT              FUTURE              │
-│  (2020-2022)           (2023-2024)          (2025+)            │
-│                                                                 │
-│  ┌─────────────┐      ┌─────────────┐      ┌─────────────┐     │
-│  │ • Simple    │      │ • Structured│      │ • Automated │     │
-│  │   queries   │      │   frameworks│      │   prompting │     │
-│  │ • Trial &   │      │ • Patterns  │      │ • AI-human  │     │
-│  │   error     │──────▶  & best    │──────▶  collabor.  │     │
-│  │ • Individual│      │   practices │      │ • Adaptive  │     │
-│  │   discovery │      │ • Testing & │      │   systems   │     │
-│  │             │      │   iteration │      │             │     │
-│  └─────────────┘      └─────────────┘      └─────────────┘     │
-│                                                                 │
-│  Keywords:             Keywords:            Keywords:           │
-│  GPT-3, exploration    ChatGPT, prompt      Agents, multimodal │
-│                        engineering          autonomous          │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ![Three-era timeline showing prompting evolution. PAST 2020-2022 (blue): Simple queries, Trial and error, Individual discovery; Keywords: GPT-3, exploration. Arrow leads to PRESENT 2023-2024 (teal): Structured frameworks, Patterns and best practices, Testing and iteration; Keywords: ChatGPT, prompt engineering. Arrow leads to FUTURE 2025+ (green): Automated prompting, AI-human collaboration, Adaptive systems; Keywords: Agents, multimodal, autonomous. Flow shows progression from left to right.]({{ site.baseurl }}/images/Figure_19.1.jpeg){: .img-fluid }
 *Figure 19.1: The evolution of prompting—from simple queries and trial-and-error to structured frameworks and toward automated, agentic systems.*
 
@@ -122,33 +97,6 @@ Show me visual mockups of each suggestion."
 
 Despite technological changes, core prompting skills will remain valuable:
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                   ENDURING PROMPTING SKILLS                     │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ALWAYS IMPORTANT                                               │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ • Clarity of communication                              │   │
-│  │ • Problem decomposition                                 │   │
-│  │ • Quality evaluation                                    │   │
-│  │ • Ethical judgment                                      │   │
-│  │ • Knowing when AI is appropriate                        │   │
-│  │ • Understanding AI limitations                          │   │
-│  │ • Critical thinking about outputs                       │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-│  MAY EVOLVE                                                     │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ • Specific syntax patterns                              │   │
-│  │ • Token optimization techniques                         │   │
-│  │ • Model-specific tricks                                 │   │
-│  │ • Detailed formatting instructions                      │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ### Transferable Skills
 
 | Current Skill | Future Application |
@@ -165,28 +113,6 @@ Despite technological changes, core prompting skills will remain valuable:
 ## Continuous Learning Strategy
 
 ### The Learning Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                  CONTINUOUS LEARNING FRAMEWORK                  │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│     OBSERVE          EXPERIMENT         REFLECT                 │
-│     ┌───────┐        ┌───────┐          ┌───────┐              │
-│     │ Watch │        │ Try   │          │ Learn │              │
-│     │ trends│───────▶│ new   │─────────▶│ from  │              │
-│     │       │        │ things│          │ results│             │
-│     └───────┘        └───────┘          └───────┘              │
-│         ▲                                    │                  │
-│         │                                    │                  │
-│         │         ┌───────┐                  │                  │
-│         └─────────│ ADAPT │◀─────────────────┘                  │
-│                   │ your  │                                     │
-│                   │practice│                                    │
-│                   └───────┘                                     │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ### Staying Current
 
@@ -267,24 +193,6 @@ Verify techniques work across different AI systems.
 ## Long-Term Success Factors
 
 ### Success Beyond Technical Skills
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│               LONG-TERM SUCCESS FACTORS                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  TECHNICAL           PROFESSIONAL        PERSONAL               │
-│  ┌─────────────┐    ┌─────────────┐    ┌─────────────┐         │
-│  │ • Prompting │    │ • Teaching  │    │ • Curiosity │         │
-│  │   skills    │    │   ability   │    │ • Humility  │         │
-│  │ • AI        │    │ • Business  │    │ • Ethics    │         │
-│  │   knowledge │    │   acumen    │    │ • Patience  │         │
-│  │ • Tool      │    │ • Communica-│    │ • Resilience│         │
-│  │   proficiency    │   tion      │    │             │         │
-│  └─────────────┘    └─────────────┘    └─────────────┘         │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ### Career Development Path
 

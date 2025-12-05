@@ -45,32 +45,6 @@ WITHOUT METRICS                  WITH METRICS
 
 ### What to Measure
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    MEASUREMENT CATEGORIES                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  QUALITY              EFFICIENCY          USER EXPERIENCE       │
-│  ┌─────────────┐     ┌─────────────┐     ┌─────────────┐       │
-│  │ Accuracy    │     │ Response    │     │ Satisfaction│       │
-│  │ Relevance   │     │ Time        │     │ Ease of use │       │
-│  │ Completeness│     │ Token usage │     │ Trust       │       │
-│  │ Consistency │     │ Cost per    │     │ Task        │       │
-│  │             │     │ query       │     │ completion  │       │
-│  └─────────────┘     └─────────────┘     └─────────────┘       │
-│                                                                 │
-│  RELIABILITY          SAFETY              MAINTAINABILITY       │
-│  ┌─────────────┐     ┌─────────────┐     ┌─────────────┐       │
-│  │ Consistency │     │ Harmful     │     │ Ease of     │       │
-│  │ across runs │     │ output rate │     │ modification│       │
-│  │ Error rate  │     │ Policy      │     │ Documentation│      │
-│  │ Edge case   │     │ compliance  │     │ quality     │       │
-│  │ handling    │     │             │     │             │       │
-│  └─────────────┘     └─────────────┘     └─────────────┘       │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ![Six-category 2x3 grid showing measurement categories. Top row: QUALITY (blue) - Accuracy, Relevance, Completeness, Consistency; EFFICIENCY (teal) - Response Time, Token usage, Cost per query; USER EXPERIENCE (orange) - Satisfaction, Ease of use, Trust, Task completion. Bottom row: RELIABILITY (green) - Consistency across runs, Error rate, Edge case handling; SAFETY (red) - Harmful output rate, Policy compliance; MAINTAINABILITY (info blue) - Ease of modification, Documentation quality. Each category has colored header bar and icon.]({{ site.baseurl }}/images/Figure_14.1.jpeg){: .img-fluid }
 *Figure 14.1: Six categories of prompt performance metrics spanning quality, efficiency, user experience, and operations.*
 
@@ -261,38 +235,6 @@ A **benchmark** is a standardized evaluation set used to measure and compare pro
 
 ### Benchmark Components
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    BENCHMARK STRUCTURE                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ TEST SET                                                 │   │
-│  │ • Fixed set of inputs                                   │   │
-│  │ • Representative of real usage                          │   │
-│  │ • Includes edge cases                                   │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ GOLD STANDARD                                            │   │
-│  │ • Ideal outputs for each input                          │   │
-│  │ • Or evaluation criteria                                │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ SCORING METHODOLOGY                                      │   │
-│  │ • How to evaluate responses                             │   │
-│  │ • Metrics to calculate                                  │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │ BASELINE SCORES                                          │   │
-│  │ • Reference performance to compare against              │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ![Four-component vertical stack showing benchmark structure. TEST SET (blue): Fixed set of inputs, Representative of real usage, Includes edge cases. GOLD STANDARD (teal): Ideal outputs for each input, Or evaluation criteria. SCORING METHODOLOGY (orange): How to evaluate responses, Metrics to calculate. BASELINE SCORES (green): Reference performance to compare against. Vertical connector line on left shows progression through components.]({{ site.baseurl }}/images/Figure_14.2.jpeg){: .img-fluid }
 *Figure 14.2: The four components of a complete evaluation benchmark for consistent prompt measurement.*
 
@@ -337,29 +279,6 @@ Evaluate [prompt type] for [use case].
 ## Continuous Monitoring
 
 ### Monitoring Framework
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                  CONTINUOUS MONITORING                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   COLLECT                ANALYZE               ALERT            │
-│   ┌─────────┐           ┌─────────┐          ┌─────────┐       │
-│   │ Log all │           │ Compute │          │ Notify  │       │
-│   │ prompts │──────────▶│ metrics │─────────▶│ if      │       │
-│   │ and     │           │ over    │          │ threshold│      │
-│   │responses│           │ time    │          │ crossed │       │
-│   └─────────┘           └─────────┘          └─────────┘       │
-│                              │                                  │
-│                              ▼                                  │
-│                         ┌─────────┐                            │
-│                         │ Display │                            │
-│                         │ on      │                            │
-│                         │dashboard│                            │
-│                         └─────────┘                            │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ![Horizontal pipeline showing continuous monitoring flow. COLLECT (blue with database icon): Log all prompts and responses, flows right to ANALYZE (teal with chart icon): Compute metrics over time, flows right to ALERT (red with bell icon): Notify if threshold crossed. From ANALYZE, downward branch leads to DISPLAY (orange with monitor icon): Display on dashboard. Arrows show data flowing through pipeline stages.]({{ site.baseurl }}/images/Figure_14.3.jpeg){: .img-fluid }
 *Figure 14.3: The continuous monitoring pipeline—collect data, analyze metrics, alert on issues, and display on dashboard.*

@@ -32,30 +32,6 @@ After completing this chapter, you will be able to:
 
 The journey to prompting mastery follows a predictable path:
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    THE ADOPTION JOURNEY                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  PHASE 1          PHASE 2          PHASE 3         PHASE 4     │
-│  Foundation       Adoption         Optimization    Mastery      │
-│                                                                 │
-│  ┌─────────┐     ┌─────────┐      ┌─────────┐    ┌─────────┐  │
-│  │  Learn  │────▶│  Apply  │─────▶│ Optimize│───▶│  Lead   │  │
-│  │  Basics │     │ Patterns│      │ Results │    │ Others  │  │
-│  └─────────┘     └─────────┘      └─────────┘    └─────────┘  │
-│                                                                 │
-│  Duration:        Duration:        Duration:      Duration:     │
-│  2-4 weeks        4-8 weeks        2-4 months     Ongoing       │
-│                                                                 │
-│  Focus:           Focus:           Focus:         Focus:        │
-│  • Vocabulary     • Daily use      • Metrics      • Mentoring   │
-│  • Concepts       • Templates      • Testing      • Innovation  │
-│  • Basic skills   • Patterns       • Refinement   • Community   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ![Four-phase horizontal journey diagram showing adoption progression. PHASE 1 Foundation (blue): Learn Basics, Duration 2-4 weeks, Focus on Vocabulary, Concepts, Basic skills. Arrow leads to PHASE 2 Adoption (teal): Apply Patterns, Duration 4-8 weeks, Focus on Daily use, Templates, Patterns. Arrow leads to PHASE 3 Optimization (orange): Optimize Results, Duration 2-4 months, Focus on Metrics, Testing, Refinement. Arrow leads to PHASE 4 Mastery (green): Lead Others, Duration Ongoing, Focus on Mentoring, Innovation, Community. Each phase box shows duration and key focus areas below.]({{ site.baseurl }}/images/Figure_17.1.jpeg){: .img-fluid }
 *Figure 17.1: The four-phase adoption journey from learning basics to leading others in structured prompting mastery.*
 
@@ -343,35 +319,6 @@ Milestone: Recognized expertise
 ## Team Implementation
 
 ### Team Adoption Roadmap
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                  TEAM IMPLEMENTATION ROADMAP                    │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  MONTH 1            MONTH 2           MONTH 3                  │
-│  Awareness          Enablement        Adoption                 │
-│                                                                 │
-│  □ Introduce        □ Training        □ Daily use              │
-│    concept            sessions          expected               │
-│  □ Share            □ Provide         □ Shared                 │
-│    handbook           templates         templates              │
-│  □ Identify         □ Create          □ Peer                   │
-│    champions          practice          support                │
-│                       time                                      │
-│                                                                 │
-│  MONTH 4            MONTH 5           MONTH 6                  │
-│  Optimization       Standardization   Maturity                 │
-│                                                                 │
-│  □ Measure          □ Define          □ Continuous             │
-│    results            standards         improvement            │
-│  □ Share            □ Build           □ Advanced               │
-│    learnings          library           training               │
-│  □ Refine           □ Establish       □ Recognition            │
-│    practices          governance        program                │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ### Change Management
 

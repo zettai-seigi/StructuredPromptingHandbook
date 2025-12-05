@@ -82,18 +82,6 @@ Today, prompt engineering has matured into a discipline:
 - Professional roles and specializations
 - Integration into software development practices
 
-```
-Timeline: Evolution of Prompt Engineering
-
-2020        2021        2022        2023        2024        2025
-  │           │           │           │           │           │
-  ▼           ▼           ▼           ▼           ▼           ▼
-┌─────┐   ┌─────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐   ┌─────────┐
-│Early│   │GPT-3│   │ChatGPT  │   │Framework│   │Enterprise│  │Mature   │
-│LLMs │──▶│Era  │──▶│Explosion│──▶│Emergence│──▶│Adoption │──▶│Discipline│
-└─────┘   └─────┘   └─────────┘   └─────────┘   └─────────┘   └─────────┘
-```
-
 ![Timeline showing the evolution of prompt engineering from 2020 to 2025, progressing through six eras: Early LLMs, GPT-3 Era, ChatGPT Explosion, Framework Emergence, Enterprise Adoption, and Mature Discipline. Each era is connected by arrows showing the progression of the field.]({{ site.baseurl }}/images/Figure_01.1.jpeg){: .img-fluid }
 *Figure 1.1: The Evolution of Prompt Engineering - From experimental LLM interactions in 2020 through today's established discipline with documented frameworks, professional practices, and enterprise adoption.*
 
@@ -157,21 +145,6 @@ Most users experience similar challenges:
 ### The Knowledge Gap
 
 The gap between casual users and experts isn't talent—it's knowledge:
-
-```
-                    THE PROMPTING KNOWLEDGE GAP
-
-  Novice                                              Expert
-    │                                                   │
-    ▼                                                   ▼
-┌─────────────────────────────────────────────────────────┐
-│░░░░░░░░░░░░░░░░│                    │████████████████████│
-│    WHAT MOST   │       GAP          │  WHAT WORKS       │
-│   PEOPLE KNOW  │                    │                   │
-└─────────────────────────────────────────────────────────┘
-
-This handbook bridges that gap with frameworks, patterns, and practices.
-```
 
 ![Horizontal spectrum diagram showing the knowledge gap in prompting. On the left labeled 'Novice' is a shaded section showing 'What Most People Know'. A large gap in the middle separates this from the right side labeled 'Expert' showing 'What Works' in solid fill. A bridge element indicates this handbook bridges that gap.]({{ site.baseurl }}/images/Figure_01.2.jpeg){: .img-fluid }
 *Figure 1.2: The Knowledge Gap in Prompting - The difference between novice and expert isn't talent—it's knowledge. This handbook provides the frameworks, patterns, and practices to bridge that gap.*

@@ -32,33 +32,6 @@ The **7 Prompting Pillars** framework provides a comprehensive mental model for 
 
 ### The Pillars Overview
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│                    THE 7 PROMPTING PILLARS                          │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                     │
-│     ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐               │
-│     │CLARITY  │ │CONTEXT  │ │CONSTRAINT│ │COMPOSITION│            │
-│     │    1    │ │    2    │ │    3    │ │    4    │               │
-│     └────┬────┘ └────┬────┘ └────┬────┘ └────┬────┘               │
-│          │           │           │           │                      │
-│          └───────────┴─────┬─────┴───────────┘                      │
-│                            │                                        │
-│                            ▼                                        │
-│                   ┌─────────────────┐                               │
-│                   │ EFFECTIVE PROMPT │                               │
-│                   └─────────────────┘                               │
-│                            ▲                                        │
-│          ┌─────────────────┼─────────────────┐                      │
-│          │                 │                 │                      │
-│     ┌────┴────┐      ┌────┴────┐      ┌────┴────┐                  │
-│     │CALIBRATION│    │  CHAIN  │      │CRITIQUE │                  │
-│     │    5    │      │    6    │      │    7    │                  │
-│     └─────────┘      └─────────┘      └─────────┘                  │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
 ![Hub-and-spoke diagram showing the 7 Prompting Pillars framework. Top row has four pillars feeding into a central hub: Clarity (1), Context (2), Constraint (3), and Composition (4). Bottom row has three pillars supporting from below: Calibration (5), Chain (6), and Critique (7). All seven pillars connect to a central 'Effective Prompt' node in the middle, illustrating how these interconnected elements work together.]({{ site.baseurl }}/images/Figure_03.1.jpeg){: .img-fluid }
 *Figure 3.1: The 7 Prompting Pillars - A comprehensive framework where seven interconnected pillars work together to create effective prompts. Pillars 1-4 provide structural elements while Pillars 5-7 add refinement and quality assurance.*
 
@@ -466,34 +439,6 @@ After your recommendation:
 ### How the Pillars Work Together
 
 The pillars are not isolated—they interact and reinforce each other:
-
-```
-┌────────────────────────────────────────────────────────────────┐
-│                    PILLAR INTERACTIONS                         │
-├────────────────────────────────────────────────────────────────┤
-│                                                                │
-│  CLARITY ──────▶ Enables effective CONTEXT delivery           │
-│      │                                                         │
-│      ▼                                                         │
-│  CONTEXT ──────▶ Informs appropriate CONSTRAINTS              │
-│      │                                                         │
-│      ▼                                                         │
-│  CONSTRAINT ───▶ Shapes COMPOSITION requirements              │
-│      │                                                         │
-│      ▼                                                         │
-│  COMPOSITION ──▶ Determines CALIBRATION needs                 │
-│      │                                                         │
-│      ▼                                                         │
-│  CALIBRATION ──▶ Sets tone for CHAIN reasoning               │
-│      │                                                         │
-│      ▼                                                         │
-│  CHAIN ────────▶ Provides material for CRITIQUE              │
-│      │                                                         │
-│      ▼                                                         │
-│  CRITIQUE ─────▶ May reveal need for more CLARITY            │
-│                                                                │
-└────────────────────────────────────────────────────────────────┘
-```
 
 ![Vertical cascade diagram showing pillar dependencies and interactions. Seven pillars are stacked on the left (Clarity, Context, Constraint, Composition, Calibration, Chain, Critique) with horizontal arrows pointing to their relationships: Clarity enables Context delivery, Context informs Constraints, Constraint shapes Composition, Composition determines Calibration needs, Calibration sets tone for Chain reasoning, Chain provides material for Critique. A dashed loop arrow connects Critique back to Clarity, showing the continuous improvement cycle.]({{ site.baseurl }}/images/Figure_03.2.jpeg){: .img-fluid }
 *Figure 3.2: Pillar Interactions - Each pillar builds upon and enables the next in a continuous improvement cycle. Clear intent enables context delivery, which informs constraints, and so on through critique, which may reveal the need for additional clarity.*

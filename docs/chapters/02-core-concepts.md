@@ -76,37 +76,6 @@ A **Large Language Model** is an AI system trained on vast amounts of text data 
 
 Every prompt can be analyzed in terms of its components:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     PROMPT ANATOMY                          │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │ CONTEXT                                             │   │
-│  │ Background information, domain knowledge, setup     │   │
-│  └─────────────────────────────────────────────────────┘   │
-│                           │                                 │
-│                           ▼                                 │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │ INSTRUCTION                                         │   │
-│  │ The task, action, or question                       │   │
-│  └─────────────────────────────────────────────────────┘   │
-│                           │                                 │
-│                           ▼                                 │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │ INPUT DATA (Optional)                               │   │
-│  │ Content to be processed, analyzed, or transformed   │   │
-│  └─────────────────────────────────────────────────────┘   │
-│                           │                                 │
-│                           ▼                                 │
-│  ┌─────────────────────────────────────────────────────┐   │
-│  │ OUTPUT SPECIFICATION (Optional)                     │   │
-│  │ Format, structure, length, style requirements       │   │
-│  └─────────────────────────────────────────────────────┘   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
 ![Vertical layered diagram showing the four components of prompt anatomy from top to bottom: Context (background information, domain knowledge, setup), Instruction (the task, action, or question), Input Data marked as optional (content to be processed, analyzed, or transformed), and Output Specification marked as optional (format, structure, length, style requirements). Arrows connect each layer showing the flow from top to bottom.]({{ site.baseurl }}/images/Figure_02.1.jpeg){: .img-fluid }
 *Figure 2.1: The Anatomy of a Prompt - Every prompt consists of these four components: Context (background), Instruction (task), Input Data (content to process), and Output Specification (format requirements). Input Data and Output Specification are optional but often critical for quality results.*
 
@@ -171,19 +140,6 @@ Provide your analysis as:
 - **Code**: Often tokenizes less efficiently than prose
 - **Special characters**: May consume extra tokens
 
-```
-Token Economy Example:
-
-Prompt:     500 tokens  ───┐
-                          │
-Context:    200 tokens  ──┼──► Total Input: 700 tokens
-                          │
-Data:       100 tokens  ───┘
-
-Model Limit: 8,000 tokens
-Available for Output: 7,300 tokens
-```
-
 ![Flow diagram showing token economy with three input components: Prompt (500 tokens), Context (200 tokens), and Data (100 tokens) combining to Total Input of 700 tokens. A model limit bar shows 8,000 tokens capacity, with 7,300 tokens available for output after the input allocation.]({{ site.baseurl }}/images/Figure_02.2.jpeg){: .img-fluid }
 *Figure 2.2: Token Economy - Understanding how tokens are allocated helps optimize prompts. In this example, 700 input tokens leave 7,300 tokens available for the response within an 8,000-token context window.*
 
@@ -205,28 +161,6 @@ The **context window** is the maximum number of tokens an AI model can process i
 | Gemini | 32K - 1M tokens |
 
 ### Managing Context
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    CONTEXT WINDOW                           │
-│                    (e.g., 8,000 tokens)                     │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│  ┌─────────────────────────────────────────────┐           │
-│  │ SYSTEM PROMPT           (500 tokens)        │           │
-│  └─────────────────────────────────────────────┘           │
-│  ┌─────────────────────────────────────────────┐           │
-│  │ CONVERSATION HISTORY    (2,000 tokens)      │           │
-│  └─────────────────────────────────────────────┘           │
-│  ┌─────────────────────────────────────────────┐           │
-│  │ CURRENT PROMPT          (1,500 tokens)      │           │
-│  └─────────────────────────────────────────────┘           │
-│  ┌─────────────────────────────────────────────┐           │
-│  │ RESERVED FOR RESPONSE   (4,000 tokens)      │           │
-│  └─────────────────────────────────────────────┘           │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
 
 ![Vertical container diagram showing context window structure with an 8,000 token total capacity divided into four sections: System Prompt (500 tokens) at the top, Conversation History (2,000 tokens) below that, Current Prompt (1,500 tokens), and Reserved for Response (4,000 tokens) at the bottom. Each section is proportionally sized and color-coded.]({{ site.baseurl }}/images/Figure_02.3.jpeg){: .img-fluid }
 *Figure 2.3: Context Window Management - The context window must accommodate system prompts, conversation history, current prompts, and response space. Strategic allocation ensures sufficient room for quality outputs.*
@@ -347,25 +281,6 @@ Model stops if it generates "###" or "END"
 ## Understanding Model Behavior
 
 ### How Models Process Prompts
-
-```
-┌──────────────────────────────────────────────────────────────┐
-│                  MODEL PROCESSING FLOW                       │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│   PROMPT          TOKENIZE        PROCESS         OUTPUT     │
-│      │               │               │               │       │
-│      ▼               ▼               ▼               ▼       │
-│  ┌───────┐      ┌───────┐      ┌───────┐      ┌───────┐    │
-│  │ Text  │ ──▶  │Tokens │ ──▶  │ Model │ ──▶  │ Text  │    │
-│  │ Input │      │ [ids] │      │Process│      │Output │    │
-│  └───────┘      └───────┘      └───────┘      └───────┘    │
-│                                                              │
-│  "Hello"   ▶    [15496]   ▶   Attention   ▶   "Hi there!"  │
-│                              Layers, etc.                    │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
 
 ![Horizontal four-stage pipeline showing how AI models process prompts. Stage 1: Prompt (text input with keyboard icon showing 'Hello'). Stage 2: Tokenize (tokens shown as array [15496] with split icon). Stage 3: Process (model processing through attention layers with brain icon). Stage 4: Output (text result 'Hi there!' with speech bubble icon). Arrows connect each stage showing the transformation flow from left to right.]({{ site.baseurl }}/images/Figure_02.4.jpeg){: .img-fluid }
 *Figure 2.4: Model Processing Flow - Text input is tokenized into numeric IDs, processed through the model's attention layers and neural networks, then decoded back into readable text output.*

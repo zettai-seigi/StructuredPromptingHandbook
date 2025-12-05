@@ -42,43 +42,6 @@ One oversight        →    Systematic discrimination
 
 ### The Responsible AI Pyramid
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                 RESPONSIBLE AI PYRAMID                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│                          /\                                     │
-│                         /  \                                    │
-│                        /    \                                   │
-│                       /SOCIAL\                                  │
-│                      / IMPACT \                                 │
-│                     /──────────\                                │
-│                    /            \                               │
-│                   / TRANSPARENCY \                              │
-│                  /   & EXPLAIN.   \                             │
-│                 /──────────────────\                            │
-│                /                    \                           │
-│               /    FAIRNESS &        \                          │
-│              /       BIAS             \                         │
-│             /────────────────────────────\                      │
-│            /                              \                     │
-│           /      SAFETY & HARM             \                    │
-│          /        PREVENTION                \                   │
-│         /────────────────────────────────────\                  │
-│        /                                      \                 │
-│       /         ACCURACY & TRUTH               \                │
-│      /                                          \               │
-│     /────────────────────────────────────────────\              │
-│                                                                 │
-│  Foundation: Build on truth                                     │
-│  Layer 1: Prevent direct harm                                   │
-│  Layer 2: Ensure fairness                                       │
-│  Layer 3: Be transparent                                        │
-│  Peak: Consider broader impact                                  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ![Pyramid diagram showing five layers of responsible AI considerations from base to peak. Base (blue): ACCURACY & TRUTH - Foundation: Build on truth. Layer 1 (teal): SAFETY & HARM PREVENTION - Prevent direct harm. Layer 2 (orange): FAIRNESS & BIAS - Ensure fairness. Layer 3 (green): TRANSPARENCY & EXPLAINABILITY - Be transparent. Peak (yellow): SOCIAL IMPACT - Consider broader impact. Each layer narrows toward the top, showing dependencies.]({{ site.baseurl }}/images/Figure_15.1.jpeg){: .img-fluid }
 *Figure 15.1: The Responsible AI Pyramid—foundational accuracy supports safety, fairness, transparency, and ultimately positive social impact.*
 
@@ -113,25 +76,6 @@ One oversight        →    Systematic discrimination
 ## Bias Awareness and Mitigation
 
 ### Types of Bias in AI Prompting
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    TYPES OF BIAS                                │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  PROMPT BIAS            MODEL BIAS          OUTPUT BIAS         │
-│  ┌─────────────┐       ┌─────────────┐     ┌─────────────┐     │
-│  │ Biased      │       │ Training    │     │ Biased      │     │
-│  │ framing     │       │ data bias   │     │ outcomes    │     │
-│  │             │   +   │             │  =  │             │     │
-│  │ Skewed      │       │ Algorithmic │     │ Unfair      │     │
-│  │ examples    │       │ patterns    │     │ impacts     │     │
-│  └─────────────┘       └─────────────┘     └─────────────┘     │
-│                                                                 │
-│  What you can control  What you can't     What you must check  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ![Three-column equation diagram showing bias flow. PROMPT BIAS (blue): Biased framing, Skewed examples with 'What you can control' label. Plus sign connects to MODEL BIAS (gray): Training data bias, Algorithmic patterns with 'What you can't control' label. Equals sign leads to OUTPUT BIAS (red): Biased outcomes, Unfair impacts with 'What you must check' label. Flow shows left to right how biases combine.]({{ site.baseurl }}/images/Figure_15.2.jpeg){: .img-fluid }
 *Figure 15.2: Bias flows from prompts and models to outputs—control what you can, check what you must.*
@@ -241,30 +185,6 @@ the logic behind your conclusions."
 ## Harm Prevention
 
 ### Types of Potential Harm
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    HARM CATEGORIES                              │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  DIRECT HARM                      INDIRECT HARM                 │
-│  ┌───────────────────────┐       ┌───────────────────────┐     │
-│  │ • Dangerous info      │       │ • Misinformation      │     │
-│  │ • Harmful instructions│       │ • Manipulation        │     │
-│  │ • Hateful content     │       │ • Deception           │     │
-│  │ • Illegal activities  │       │ • Unfair advantage    │     │
-│  └───────────────────────┘       └───────────────────────┘     │
-│                                                                 │
-│  INDIVIDUAL HARM                  SOCIETAL HARM                 │
-│  ┌───────────────────────┐       ┌───────────────────────┐     │
-│  │ • Privacy violation   │       │ • Discrimination      │     │
-│  │ • Emotional distress  │       │ • Trust erosion       │     │
-│  │ • Financial loss      │       │ • Job displacement    │     │
-│  │ • Reputation damage   │       │ • Power concentration │     │
-│  └───────────────────────┘       └───────────────────────┘     │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ![Four-quadrant 2x2 grid showing harm categories. Top row: DIRECT HARM (red) - Dangerous info, Harmful instructions, Hateful content, Illegal activities; INDIRECT HARM (orange) - Misinformation, Manipulation, Deception, Unfair advantage. Bottom row: INDIVIDUAL HARM (blue) - Privacy violation, Emotional distress, Financial loss, Reputation damage; SOCIETAL HARM (teal) - Discrimination, Trust erosion, Job displacement, Power concentration. Each quadrant lists four specific harm types.]({{ site.baseurl }}/images/Figure_15.3.jpeg){: .img-fluid }
 *Figure 15.3: Four categories of potential AI harm—direct, indirect, individual, and societal—that responsible prompting must address.*

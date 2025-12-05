@@ -44,22 +44,6 @@ Individual knowledge       →      Documented patterns
 
 ### The Testing Imperative
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│              PROMPT TESTING BENEFITS                            │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  QUALITY        EFFICIENCY       CONFIDENCE      KNOWLEDGE      │
-│  ┌─────────┐   ┌─────────┐     ┌─────────┐    ┌─────────┐     │
-│  │ Catch   │   │ Find    │     │ Know it │    │ Learn   │     │
-│  │ issues  │   │ optimal │     │ works   │    │ what    │     │
-│  │ early   │   │ prompts │     │ before  │    │ works   │     │
-│  │         │   │ faster  │     │ deploy  │    │ & why   │     │
-│  └─────────┘   └─────────┘     └─────────┘    └─────────┘     │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
-
 ![Four-column benefits grid showing prompt testing advantages. QUALITY (blue with shield icon): Catch issues early. EFFICIENCY (teal with speedometer icon): Find optimal prompts faster. CONFIDENCE (orange with checkmark icon): Know it works before deploy. KNOWLEDGE (green with lightbulb icon): Learn what works and why. Each benefit box has colored header bar with centered description text.]({{ site.baseurl }}/images/Figure_13.2.jpeg){: .img-fluid }
 *Figure 13.2: The four key benefits of systematic prompt testing—Quality, Efficiency, Confidence, and Knowledge.*
 
@@ -68,31 +52,6 @@ Individual knowledge       →      Documented patterns
 ## The Prompt Testing Lifecycle
 
 ### Overview
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                  PROMPT TESTING LIFECYCLE                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   ┌──────────┐    ┌──────────┐    ┌──────────┐                │
-│   │ 1.DESIGN │───▶│ 2. TEST  │───▶│3.ANALYZE │                │
-│   │  Prompt  │    │ Execute  │    │ Results  │                │
-│   └──────────┘    └──────────┘    └──────────┘                │
-│        ▲                               │                        │
-│        │                               ▼                        │
-│        │         ┌──────────┐    ┌──────────┐                  │
-│        └─────────│5. ITERATE│◀───│4.EVALUATE│                  │
-│                  │ Refine   │    │ Score    │                  │
-│                  └──────────┘    └──────────┘                  │
-│                        │                                        │
-│                        ▼                                        │
-│                  ┌──────────┐                                  │
-│                  │6.DOCUMENT│                                  │
-│                  │& Deploy  │                                  │
-│                  └──────────┘                                  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ![Six-stage circular workflow showing prompt testing lifecycle. Top row flows left to right: 1. DESIGN (blue) for creating prompt, to 2. TEST (teal) for execution, to 3. ANALYZE (orange) for reviewing results. Middle shows 4. EVALUATE (green) for scoring connects to 5. ITERATE (yellow) for refinement which loops back to DESIGN. Exit path from ITERATE leads to 6. DOCUMENT & Deploy (dark blue) at bottom. Arrows show clockwise flow with iteration loop emphasized.]({{ site.baseurl }}/images/Figure_13.1.jpeg){: .img-fluid }
 *Figure 13.1: The six-stage prompt testing lifecycle from initial design through documentation and deployment.*
@@ -211,37 +170,6 @@ Test inputs should cover:
 ### A/B Test Design
 
 ```markdown
-## A/B Test: [Test Name]
-
-### Hypothesis
-Prompt B will produce [expected improvement] compared to Prompt A.
-
-### Variants
-**Prompt A (Control):**
-[Current prompt text]
-
-**Prompt B (Treatment):**
-[Modified prompt text]
-
-### Key Difference
-[What specifically changed between A and B]
-
-### Test Inputs
-1. [Input 1]
-2. [Input 2]
-3. [Input 3]
-
-### Evaluation Criteria
-- Primary: [Main metric, e.g., accuracy]
-- Secondary: [Other metrics, e.g., relevance]
-
-### Success Threshold
-Prompt B wins if [specific criteria, e.g., "accuracy improves by >10%"]
-```
-
-### A/B Test Example
-
-```markdown
 ## A/B Test: Instruction Clarity
 
 ### Hypothesis
@@ -303,32 +231,6 @@ Version 1.3: With role + format + constraints
 ### The PDCA Cycle
 
 **Plan-Do-Check-Act** for prompt iteration:
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                      PDCA CYCLE                                 │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│         PLAN                              DO                    │
-│    ┌─────────────┐                  ┌─────────────┐            │
-│    │ Identify    │                  │ Implement   │            │
-│    │ improvement │                  │ change      │            │
-│    │ opportunity │                  │             │            │
-│    └──────┬──────┘                  └──────┬──────┘            │
-│           │                                │                    │
-│           └────────────────┬───────────────┘                    │
-│                            │                                    │
-│           ┌────────────────┴───────────────┐                    │
-│           │                                │                    │
-│    ┌──────┴──────┐                  ┌──────┴──────┐            │
-│    │ Standardize │                  │ Test and    │            │
-│    │ if it works │                  │ measure     │            │
-│    │             │                  │             │            │
-│    └─────────────┘                  └─────────────┘            │
-│         ACT                              CHECK                  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ![Four-quadrant circular diagram showing the PDCA (Plan-Do-Check-Act) cycle. PLAN quadrant (blue, top-left): Identify improvement opportunity. DO quadrant (teal, top-right): Implement change. CHECK quadrant (orange, bottom-right): Test and measure. ACT quadrant (green, bottom-left): Standardize if it works. Clockwise arrows connect all quadrants showing continuous improvement flow.]({{ site.baseurl }}/images/Figure_13.4.jpeg){: .img-fluid }
 *Figure 13.4: The Plan-Do-Check-Act (PDCA) cycle for systematic prompt iteration and improvement.*
