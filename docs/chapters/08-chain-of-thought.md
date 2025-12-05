@@ -251,10 +251,11 @@ Answer: Alex is the tallest.
 ### Example 3: Code Analysis
 
 **Prompt:**
+```text
+This function should return the sum of even numbers in a list,
+but it's returning incorrect results. Trace through the logic
+step by step to find the bug.
 
-> This function should return the sum of even numbers in a list, but it's returning incorrect results. Trace through the logic step by step to find the bug.
-
-```python
 def sum_even(numbers):
     total = 0
     for n in numbers:
