@@ -361,20 +361,16 @@ Format: {output_format}
 
 ### Example Template: Code Review
 
-```markdown
-# Code Review Template
+**Purpose:** Systematic code review with consistent criteria
 
-## Purpose
-Systematic code review with consistent criteria
+**Variables:**
+- `{language}`: Programming language
+- `{code}`: Code to review
+- `{focus_areas}`: Specific concerns
 
-## Variables
-- {language}: Programming language
-- {code}: Code to review
-- {focus_areas}: Specific concerns
+**Template:**
 
-## Template
-
----
+```text
 You are a senior {language} developer conducting a code review.
 
 Review the following code for:
@@ -385,18 +381,17 @@ Review the following code for:
 5. {focus_areas}
 
 Code to review:
-```{language}
-{code}
-```
+[Insert code here]
 
 Provide your review as:
-- **Issues Found**: Numbered list with severity (Critical/Major/Minor)
-- **Positive Observations**: What's done well
-- **Recommendations**: Specific improvements
----
+- Issues Found: Numbered list with severity (Critical/Major/Minor)
+- Positive Observations: What's done well
+- Recommendations: Specific improvements
+```
 
-## Usage Example
+**Usage Example:**
 
+```text
 You are a senior Python developer conducting a code review.
 
 Review the following code for:
@@ -407,13 +402,14 @@ Review the following code for:
 5. Error handling patterns
 
 Code to review:
-```python
 def process_user_data(data):
     result = eval(data['formula'])
     return result
-```
 
-[Continues with format specification...]
+Provide your review as:
+- Issues Found: Numbered list with severity (Critical/Major/Minor)
+- Positive Observations: What's done well
+- Recommendations: Specific improvements
 ```
 
 ---
