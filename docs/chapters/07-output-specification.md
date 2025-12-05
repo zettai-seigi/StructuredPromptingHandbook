@@ -634,4 +634,4 @@ Design a JSON schema for a "book recommendation" response that includes:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 6: Instruction Design](/chapters/06-instruction-design/) | [Part II: Core Frameworks](/part-ii-core-frameworks/) | [Chapter 8: Chain-of-Thought →](/chapters/08-chain-of-thought/) |
+| [← Chapter 6: Instruction Design]({{ site.baseurl }}/chapters/06-instruction-design/) | [Part II: Core Frameworks]({{ site.baseurl }}/part-ii-core-frameworks/) | [Chapter 8: Chain-of-Thought →]({{ site.baseurl }}/chapters/08-chain-of-thought/) |

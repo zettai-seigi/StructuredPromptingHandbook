@@ -577,4 +577,4 @@ Draft an AI Use Policy section for your organization (or a hypothetical one) cov
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 15: Responsible AI](/chapters/15-responsible-ai/) | [Part V: Governance and Ethics](/part-v-governance-ethics/) | [Chapter 17: Implementation Roadmap →](/chapters/17-implementation-roadmap/) |
+| [← Chapter 15: Responsible AI]({{ site.baseurl }}/chapters/15-responsible-ai/) | [Part V: Governance and Ethics]({{ site.baseurl }}/part-v-governance-ethics/) | [Chapter 17: Implementation Roadmap →]({{ site.baseurl }}/chapters/17-implementation-roadmap/) |

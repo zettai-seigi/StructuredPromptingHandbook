@@ -598,4 +598,4 @@ Create a reusable template for a task you perform frequently. Include:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 3: Prompting Pillars](/chapters/03-prompting-pillars/) | [Part II: Core Frameworks](/part-ii-core-frameworks/) | [Chapter 5: Context Engineering →](/chapters/05-context-engineering/) |
+| [← Chapter 3: Prompting Pillars]({{ site.baseurl }}/chapters/03-prompting-pillars/) | [Part II: Core Frameworks]({{ site.baseurl }}/part-ii-core-frameworks/) | [Chapter 5: Context Engineering →]({{ site.baseurl }}/chapters/05-context-engineering/) |

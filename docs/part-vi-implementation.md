@@ -24,7 +24,7 @@ Whether you're implementing prompting practices for yourself, your team, or your
 
 ## Chapters in This Part
 
-### [Chapter 17: Implementation Roadmap](/chapters/17-implementation-roadmap/)
+### [Chapter 17: Implementation Roadmap]({{ site.baseurl }}/chapters/17-implementation-roadmap/)
 
 A practical adoption guide, including:
 - Phased implementation approach
@@ -32,7 +32,7 @@ A practical adoption guide, including:
 - Tool and resource selection
 - Organizational change management
 
-### [Chapter 18: Best Practices and Common Pitfalls](/chapters/18-best-practices/)
+### [Chapter 18: Best Practices and Common Pitfalls]({{ site.baseurl }}/chapters/18-best-practices/)
 
 Lessons from the field, including:
 - Proven prompting best practices
@@ -40,7 +40,7 @@ Lessons from the field, including:
 - Anti-patterns to watch for
 - Success stories and case studies
 
-### [Chapter 19: Future of Prompting and Continuous Learning](/chapters/19-future-prompting/)
+### [Chapter 19: Future of Prompting and Continuous Learning]({{ site.baseurl }}/chapters/19-future-prompting/)
 
 Looking ahead, including:
 - Emerging trends in AI and prompting
@@ -177,8 +177,8 @@ Completion of Parts I-V, or equivalent understanding of:
 
 ## Next Steps
 
-Begin with [Chapter 17: Implementation Roadmap](/chapters/17-implementation-roadmap/) to start planning your structured prompting adoption journey.
+Begin with [Chapter 17: Implementation Roadmap]({{ site.baseurl }}/chapters/17-implementation-roadmap/) to start planning your structured prompting adoption journey.
 
 ---
 
-[Begin Part VI →](/chapters/17-implementation-roadmap/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Begin Part VI →]({{ site.baseurl }}/chapters/17-implementation-roadmap/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

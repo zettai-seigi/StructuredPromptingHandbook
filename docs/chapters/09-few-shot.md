@@ -583,4 +583,4 @@ Take your examples from 9.1 and add 2 more that handle edge cases:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 8: Chain-of-Thought](/chapters/08-chain-of-thought/) | [Part III: Advanced Techniques](/part-iii-advanced-techniques/) | [Chapter 10: System Prompts →](/chapters/10-system-prompts/) |
+| [← Chapter 8: Chain-of-Thought]({{ site.baseurl }}/chapters/08-chain-of-thought/) | [Part III: Advanced Techniques]({{ site.baseurl }}/part-iii-advanced-techniques/) | [Chapter 10: System Prompts →]({{ site.baseurl }}/chapters/10-system-prompts/) |

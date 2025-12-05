@@ -488,4 +488,4 @@ Given this incorrect reasoning, identify and fix the error:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 7: Output Specification](/chapters/07-output-specification/) | [Part III: Advanced Techniques](/part-iii-advanced-techniques/) | [Chapter 9: Few-Shot Prompting →](/chapters/09-few-shot/) |
+| [← Chapter 7: Output Specification]({{ site.baseurl }}/chapters/07-output-specification/) | [Part III: Advanced Techniques]({{ site.baseurl }}/part-iii-advanced-techniques/) | [Chapter 9: Few-Shot Prompting →]({{ site.baseurl }}/chapters/09-few-shot/) |

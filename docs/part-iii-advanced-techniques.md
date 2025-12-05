@@ -24,7 +24,7 @@ This section transforms you from a competent prompter into an expert who can tac
 
 ## Chapters in This Part
 
-### [Chapter 8: Chain-of-Thought and Reasoning](/chapters/08-chain-of-thought/)
+### [Chapter 8: Chain-of-Thought and Reasoning]({{ site.baseurl }}/chapters/08-chain-of-thought/)
 
 Enabling AI reasoning, including:
 - What chain-of-thought prompting is
@@ -32,7 +32,7 @@ Enabling AI reasoning, including:
 - Step-by-step reasoning techniques
 - When and how to use reasoning chains
 
-### [Chapter 9: Few-Shot and Example-Based Prompting](/chapters/09-few-shot/)
+### [Chapter 9: Few-Shot and Example-Based Prompting]({{ site.baseurl }}/chapters/09-few-shot/)
 
 Learning from examples, including:
 - The power of few-shot learning
@@ -40,7 +40,7 @@ Learning from examples, including:
 - Example formatting and presentation
 - Common pitfalls and solutions
 
-### [Chapter 10: System Prompts and Persona Design](/chapters/10-system-prompts/)
+### [Chapter 10: System Prompts and Persona Design]({{ site.baseurl }}/chapters/10-system-prompts/)
 
 Creating AI personas, including:
 - System prompt architecture
@@ -48,7 +48,7 @@ Creating AI personas, including:
 - Behavior calibration techniques
 - Maintaining persona consistency
 
-### [Chapter 11: Multi-Turn Conversation Design](/chapters/11-multi-turn/)
+### [Chapter 11: Multi-Turn Conversation Design]({{ site.baseurl }}/chapters/11-multi-turn/)
 
 Orchestrating conversations, including:
 - Conversation flow design
@@ -140,8 +140,8 @@ Completion of Parts I and II, or equivalent understanding of:
 
 ## Next Steps
 
-Begin with [Chapter 8: Chain-of-Thought and Reasoning](/chapters/08-chain-of-thought/) to learn how to guide AI through complex reasoning processes.
+Begin with [Chapter 8: Chain-of-Thought and Reasoning]({{ site.baseurl }}/chapters/08-chain-of-thought/) to learn how to guide AI through complex reasoning processes.
 
 ---
 
-[Begin Part III →](/chapters/08-chain-of-thought/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Begin Part III →]({{ site.baseurl }}/chapters/08-chain-of-thought/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

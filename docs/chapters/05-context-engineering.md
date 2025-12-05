@@ -505,4 +505,4 @@ Take a prompt with extensive context (500+ words of background) and compress it 
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 4: Prompt Architecture](/chapters/04-prompt-architecture/) | [Part II: Core Frameworks](/part-ii-core-frameworks/) | [Chapter 6: Instruction Design →](/chapters/06-instruction-design/) |
+| [← Chapter 4: Prompt Architecture]({{ site.baseurl }}/chapters/04-prompt-architecture/) | [Part II: Core Frameworks]({{ site.baseurl }}/part-ii-core-frameworks/) | [Chapter 6: Instruction Design →]({{ site.baseurl }}/chapters/06-instruction-design/) |

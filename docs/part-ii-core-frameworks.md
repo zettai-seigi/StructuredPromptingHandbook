@@ -28,7 +28,7 @@ These chapters cover:
 
 ## Chapters in This Part
 
-### [Chapter 4: Prompt Architecture Patterns](/chapters/04-prompt-architecture/)
+### [Chapter 4: Prompt Architecture Patterns]({{ site.baseurl }}/chapters/04-prompt-architecture/)
 
 Structural frameworks for prompt design, including:
 - The anatomy of an effective prompt
@@ -36,7 +36,7 @@ Structural frameworks for prompt design, including:
 - When to use which pattern
 - Building blocks and composability
 
-### [Chapter 5: Context Engineering](/chapters/05-context-engineering/)
+### [Chapter 5: Context Engineering]({{ site.baseurl }}/chapters/05-context-engineering/)
 
 Mastering the art of context, including:
 - What context is and why it matters
@@ -44,7 +44,7 @@ Mastering the art of context, including:
 - Context loading strategies
 - Managing context window constraints
 
-### [Chapter 6: Instruction Design Principles](/chapters/06-instruction-design/)
+### [Chapter 6: Instruction Design Principles]({{ site.baseurl }}/chapters/06-instruction-design/)
 
 Writing effective instructions, including:
 - The instruction hierarchy
@@ -52,7 +52,7 @@ Writing effective instructions, including:
 - Handling ambiguity
 - Instruction sequencing and priority
 
-### [Chapter 7: Output Specification Techniques](/chapters/07-output-specification/)
+### [Chapter 7: Output Specification Techniques]({{ site.baseurl }}/chapters/07-output-specification/)
 
 Controlling AI outputs, including:
 - Format specification methods
@@ -144,8 +144,8 @@ Completion of Part I: Foundations, or equivalent understanding of:
 
 ## Next Steps
 
-Begin with [Chapter 4: Prompt Architecture Patterns](/chapters/04-prompt-architecture/) to learn the structural foundations of effective prompt design.
+Begin with [Chapter 4: Prompt Architecture Patterns]({{ site.baseurl }}/chapters/04-prompt-architecture/) to learn the structural foundations of effective prompt design.
 
 ---
 
-[Begin Part II →](/chapters/04-prompt-architecture/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Begin Part II →]({{ site.baseurl }}/chapters/04-prompt-architecture/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

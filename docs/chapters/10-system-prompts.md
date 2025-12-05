@@ -559,4 +559,4 @@ Create 5 test prompts for the Fitness Coach that verify:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 9: Few-Shot Prompting](/chapters/09-few-shot/) | [Part III: Advanced Techniques](/part-iii-advanced-techniques/) | [Chapter 11: Multi-Turn Design →](/chapters/11-multi-turn/) |
+| [← Chapter 9: Few-Shot Prompting]({{ site.baseurl }}/chapters/09-few-shot/) | [Part III: Advanced Techniques]({{ site.baseurl }}/part-iii-advanced-techniques/) | [Chapter 11: Multi-Turn Design →]({{ site.baseurl }}/chapters/11-multi-turn/) |

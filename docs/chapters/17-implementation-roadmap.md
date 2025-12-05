@@ -556,4 +556,4 @@ If you're leading or part of a team, draft a team adoption plan:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 16: Security and Privacy](/chapters/16-security-privacy/) | [Part VI: Implementation Guide](/part-vi-implementation/) | [Chapter 18: Best Practices →](/chapters/18-best-practices/) |
+| [← Chapter 16: Security and Privacy]({{ site.baseurl }}/chapters/16-security-privacy/) | [Part VI: Implementation Guide]({{ site.baseurl }}/part-vi-implementation/) | [Chapter 18: Best Practices →]({{ site.baseurl }}/chapters/18-best-practices/) |

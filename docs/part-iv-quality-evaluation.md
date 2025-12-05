@@ -24,7 +24,7 @@ These chapters transform prompting from an art into a science, with measurable o
 
 ## Chapters in This Part
 
-### [Chapter 12: Prompt Quality Dimensions](/chapters/12-quality-dimensions/)
+### [Chapter 12: Prompt Quality Dimensions]({{ site.baseurl }}/chapters/12-quality-dimensions/)
 
 Understanding what makes prompts effective, including:
 - The 5 Quality Dimensions framework
@@ -32,7 +32,7 @@ Understanding what makes prompts effective, including:
 - Common quality issues and remedies
 - Quality assessment checklists
 
-### [Chapter 13: Testing and Iteration Strategies](/chapters/13-testing-iteration/)
+### [Chapter 13: Testing and Iteration Strategies]({{ site.baseurl }}/chapters/13-testing-iteration/)
 
 Systematic prompt improvement, including:
 - The prompt testing lifecycle
@@ -40,7 +40,7 @@ Systematic prompt improvement, including:
 - Regression testing approaches
 - Iteration methodologies
 
-### [Chapter 14: Performance Metrics and Evaluation](/chapters/14-performance-metrics/)
+### [Chapter 14: Performance Metrics and Evaluation]({{ site.baseurl }}/chapters/14-performance-metrics/)
 
 Measuring prompt performance, including:
 - Quantitative metrics
@@ -162,8 +162,8 @@ Completion of Parts I-III, or equivalent understanding of:
 
 ## Next Steps
 
-Begin with [Chapter 12: Prompt Quality Dimensions](/chapters/12-quality-dimensions/) to learn how to assess and improve your prompts systematically.
+Begin with [Chapter 12: Prompt Quality Dimensions]({{ site.baseurl }}/chapters/12-quality-dimensions/) to learn how to assess and improve your prompts systematically.
 
 ---
 
-[Begin Part IV →](/chapters/12-quality-dimensions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Begin Part IV →]({{ site.baseurl }}/chapters/12-quality-dimensions/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

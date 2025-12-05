@@ -441,4 +441,4 @@ Format your response as:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 1: Introduction](/chapters/01-introduction/) | [Part I: Foundations](/part-i-foundations/) | [Chapter 3: Prompting Pillars →](/chapters/03-prompting-pillars/) |
+| [← Chapter 1: Introduction]({{ site.baseurl }}/chapters/01-introduction/) | [Part I: Foundations]({{ site.baseurl }}/part-i-foundations/) | [Chapter 3: Prompting Pillars →]({{ site.baseurl }}/chapters/03-prompting-pillars/) |

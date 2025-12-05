@@ -483,4 +483,4 @@ Using your assessment from 12.1, revise the prompt to address the identified wea
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 11: Multi-Turn Design](/chapters/11-multi-turn/) | [Part IV: Quality and Evaluation](/part-iv-quality-evaluation/) | [Chapter 13: Testing and Iteration →](/chapters/13-testing-iteration/) |
+| [← Chapter 11: Multi-Turn Design]({{ site.baseurl }}/chapters/11-multi-turn/) | [Part IV: Quality and Evaluation]({{ site.baseurl }}/part-iv-quality-evaluation/) | [Chapter 13: Testing and Iteration →]({{ site.baseurl }}/chapters/13-testing-iteration/) |

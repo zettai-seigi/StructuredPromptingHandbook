@@ -524,4 +524,4 @@ Write sequenced instructions that:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 5: Context Engineering](/chapters/05-context-engineering/) | [Part II: Core Frameworks](/part-ii-core-frameworks/) | [Chapter 7: Output Specification →](/chapters/07-output-specification/) |
+| [← Chapter 5: Context Engineering]({{ site.baseurl }}/chapters/05-context-engineering/) | [Part II: Core Frameworks]({{ site.baseurl }}/part-ii-core-frameworks/) | [Chapter 7: Output Specification →]({{ site.baseurl }}/chapters/07-output-specification/) |

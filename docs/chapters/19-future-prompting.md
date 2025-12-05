@@ -486,7 +486,7 @@ Write a brief vision statement (200-300 words):
 
 | Previous | Up | Home |
 |:---------|:---|:-----|
-| [← Chapter 18: Best Practices](/chapters/18-best-practices/) | [Part VI: Implementation Guide](/part-vi-implementation/) | [Return to Home](/) |
+| [← Chapter 18: Best Practices]({{ site.baseurl }}/chapters/18-best-practices/) | [Part VI: Implementation Guide]({{ site.baseurl }}/part-vi-implementation/) | [Return to Home]({{ site.baseurl }}/) |
 
 ---
 

@@ -551,4 +551,4 @@ Include inputs, expected outputs, and scoring criteria.
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 13: Testing and Iteration](/chapters/13-testing-iteration/) | [Part IV: Quality and Evaluation](/part-iv-quality-evaluation/) | [Chapter 15: Responsible AI →](/chapters/15-responsible-ai/) |
+| [← Chapter 13: Testing and Iteration]({{ site.baseurl }}/chapters/13-testing-iteration/) | [Part IV: Quality and Evaluation]({{ site.baseurl }}/part-iv-quality-evaluation/) | [Chapter 15: Responsible AI →]({{ site.baseurl }}/chapters/15-responsible-ai/) |

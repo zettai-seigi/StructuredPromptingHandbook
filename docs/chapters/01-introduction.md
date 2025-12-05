@@ -319,4 +319,4 @@ The journey from novice to master is achievable for anyone willing to learn and 
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [Home](/) | [Part I: Foundations](/part-i-foundations/) | [Chapter 2: Core Concepts →](/chapters/02-core-concepts/) |
+| [Home]({{ site.baseurl }}/) | [Part I: Foundations]({{ site.baseurl }}/part-i-foundations/) | [Chapter 2: Core Concepts →]({{ site.baseurl }}/chapters/02-core-concepts/) |

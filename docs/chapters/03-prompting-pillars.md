@@ -615,4 +615,4 @@ Enhanced with all 7 pillars: [Your improved version]
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 2: Core Concepts](/chapters/02-core-concepts/) | [Part I: Foundations](/part-i-foundations/) | [Chapter 4: Prompt Architecture →](/chapters/04-prompt-architecture/) |
+| [← Chapter 2: Core Concepts]({{ site.baseurl }}/chapters/02-core-concepts/) | [Part I: Foundations]({{ site.baseurl }}/part-i-foundations/) | [Chapter 4: Prompt Architecture →]({{ site.baseurl }}/chapters/04-prompt-architecture/) |

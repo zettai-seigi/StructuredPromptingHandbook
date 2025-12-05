@@ -27,7 +27,7 @@ These foundational chapters ensure you have a solid understanding of:
 
 ## Chapters in This Part
 
-### [Chapter 1: Introduction to Structured Prompting](/chapters/01-introduction/)
+### [Chapter 1: Introduction to Structured Prompting]({{ site.baseurl }}/chapters/01-introduction/)
 
 An overview of the prompting landscape, including:
 - What structured prompting is and why it matters
@@ -35,7 +35,7 @@ An overview of the prompting landscape, including:
 - The business case for investing in prompting skills
 - How this handbook is organized and how to use it
 
-### [Chapter 2: Core Concepts and Terminology](/chapters/02-core-concepts/)
+### [Chapter 2: Core Concepts and Terminology]({{ site.baseurl }}/chapters/02-core-concepts/)
 
 Essential vocabulary and concepts, including:
 - Prompt anatomy: components and structure
@@ -43,7 +43,7 @@ Essential vocabulary and concepts, including:
 - Understanding context windows
 - Key terminology definitions
 
-### [Chapter 3: The Prompting Pillars Framework](/chapters/03-prompting-pillars/)
+### [Chapter 3: The Prompting Pillars Framework]({{ site.baseurl }}/chapters/03-prompting-pillars/)
 
 The foundational framework, including:
 - Introduction to the 7 Prompting Pillars
@@ -95,8 +95,8 @@ No prior experience with prompt engineering is required. However, basic familiar
 
 ## Next Steps
 
-Begin with [Chapter 1: Introduction to Structured Prompting](/chapters/01-introduction/) to start your journey into the world of effective AI communication.
+Begin with [Chapter 1: Introduction to Structured Prompting]({{ site.baseurl }}/chapters/01-introduction/) to start your journey into the world of effective AI communication.
 
 ---
 
-[Begin Part I →](/chapters/01-introduction/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Begin Part I →]({{ site.baseurl }}/chapters/01-introduction/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

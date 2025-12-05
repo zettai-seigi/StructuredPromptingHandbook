@@ -481,4 +481,4 @@ Identify potential issues and propose mitigations.
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 14: Performance Metrics](/chapters/14-performance-metrics/) | [Part V: Governance and Ethics](/part-v-governance-ethics/) | [Chapter 16: Security and Privacy →](/chapters/16-security-privacy/) |
+| [← Chapter 14: Performance Metrics]({{ site.baseurl }}/chapters/14-performance-metrics/) | [Part V: Governance and Ethics]({{ site.baseurl }}/part-v-governance-ethics/) | [Chapter 16: Security and Privacy →]({{ site.baseurl }}/chapters/16-security-privacy/) |

@@ -555,4 +555,4 @@ Design an A/B test comparing two approaches to the same task:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 12: Quality Dimensions](/chapters/12-quality-dimensions/) | [Part IV: Quality and Evaluation](/part-iv-quality-evaluation/) | [Chapter 14: Performance Metrics →](/chapters/14-performance-metrics/) |
+| [← Chapter 12: Quality Dimensions]({{ site.baseurl }}/chapters/12-quality-dimensions/) | [Part IV: Quality and Evaluation]({{ site.baseurl }}/part-iv-quality-evaluation/) | [Chapter 14: Performance Metrics →]({{ site.baseurl }}/chapters/14-performance-metrics/) |

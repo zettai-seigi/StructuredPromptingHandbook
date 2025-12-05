@@ -32,9 +32,9 @@ Building the groundwork for effective AI prompting.
 
 | Chapter | Title | Description |
 |:-------:|:------|:------------|
-| 1 | [Introduction to Structured Prompting](/chapters/01-introduction/) | What structured prompting is, why it matters, and how to use this handbook |
-| 2 | [Core Concepts and Terminology](/chapters/02-core-concepts/) | Essential vocabulary, prompt anatomy, and foundational concepts |
-| 3 | [The Prompting Pillars Framework](/chapters/03-prompting-pillars/) | The 7 Prompting Pillars that form the foundation of effective AI communication |
+| 1 | [Introduction to Structured Prompting]({{ site.baseurl }}/chapters/01-introduction/) | What structured prompting is, why it matters, and how to use this handbook |
+| 2 | [Core Concepts and Terminology]({{ site.baseurl }}/chapters/02-core-concepts/) | Essential vocabulary, prompt anatomy, and foundational concepts |
+| 3 | [The Prompting Pillars Framework]({{ site.baseurl }}/chapters/03-prompting-pillars/) | The 7 Prompting Pillars that form the foundation of effective AI communication |
 
 ---
 
@@ -44,10 +44,10 @@ Architectural patterns and design principles for constructing effective prompts.
 
 | Chapter | Title | Description |
 |:-------:|:------|:------------|
-| 4 | [Prompt Architecture Patterns](/chapters/04-prompt-architecture/) | Structural frameworks including CRAFT, RISEN, CO-STAR, and more |
-| 5 | [Context Engineering](/chapters/05-context-engineering/) | Mastering the art of providing relevant background information |
-| 6 | [Instruction Design Principles](/chapters/06-instruction-design/) | Writing clear, actionable instructions that AI can follow |
-| 7 | [Output Specification Techniques](/chapters/07-output-specification/) | Controlling format, structure, and quality of AI outputs |
+| 4 | [Prompt Architecture Patterns]({{ site.baseurl }}/chapters/04-prompt-architecture/) | Structural frameworks including CRAFT, RISEN, CO-STAR, and more |
+| 5 | [Context Engineering]({{ site.baseurl }}/chapters/05-context-engineering/) | Mastering the art of providing relevant background information |
+| 6 | [Instruction Design Principles]({{ site.baseurl }}/chapters/06-instruction-design/) | Writing clear, actionable instructions that AI can follow |
+| 7 | [Output Specification Techniques]({{ site.baseurl }}/chapters/07-output-specification/) | Controlling format, structure, and quality of AI outputs |
 
 ---
 
@@ -57,10 +57,10 @@ Sophisticated methods for complex AI interactions.
 
 | Chapter | Title | Description |
 |:-------:|:------|:------------|
-| 8 | [Chain-of-Thought and Reasoning](/chapters/08-chain-of-thought/) | Enabling AI to show its work and reason through problems |
-| 9 | [Few-Shot and Example-Based Prompting](/chapters/09-few-shot/) | Teaching AI through carefully selected examples |
-| 10 | [System Prompts and Persona Design](/chapters/10-system-prompts/) | Creating consistent AI personalities and behaviors |
-| 11 | [Multi-Turn Conversation Design](/chapters/11-multi-turn/) | Orchestrating effective extended conversations |
+| 8 | [Chain-of-Thought and Reasoning]({{ site.baseurl }}/chapters/08-chain-of-thought/) | Enabling AI to show its work and reason through problems |
+| 9 | [Few-Shot and Example-Based Prompting]({{ site.baseurl }}/chapters/09-few-shot/) | Teaching AI through carefully selected examples |
+| 10 | [System Prompts and Persona Design]({{ site.baseurl }}/chapters/10-system-prompts/) | Creating consistent AI personalities and behaviors |
+| 11 | [Multi-Turn Conversation Design]({{ site.baseurl }}/chapters/11-multi-turn/) | Orchestrating effective extended conversations |
 
 ---
 
@@ -70,9 +70,9 @@ Measuring, testing, and improving prompt effectiveness.
 
 | Chapter | Title | Description |
 |:-------:|:------|:------------|
-| 12 | [Prompt Quality Dimensions](/chapters/12-quality-dimensions/) | The 5 Quality Dimensions: Relevance, Accuracy, Completeness, Coherence, Actionability |
-| 13 | [Testing and Iteration Strategies](/chapters/13-testing-iteration/) | Systematic approaches to prompt improvement |
-| 14 | [Performance Metrics and Evaluation](/chapters/14-performance-metrics/) | Quantitative and qualitative measurement methods |
+| 12 | [Prompt Quality Dimensions]({{ site.baseurl }}/chapters/12-quality-dimensions/) | The 5 Quality Dimensions: Relevance, Accuracy, Completeness, Coherence, Actionability |
+| 13 | [Testing and Iteration Strategies]({{ site.baseurl }}/chapters/13-testing-iteration/) | Systematic approaches to prompt improvement |
+| 14 | [Performance Metrics and Evaluation]({{ site.baseurl }}/chapters/14-performance-metrics/) | Quantitative and qualitative measurement methods |
 
 ---
 
@@ -82,8 +82,8 @@ Responsible AI prompting, security, and compliance.
 
 | Chapter | Title | Description |
 |:-------:|:------|:------------|
-| 15 | [Responsible AI Prompting](/chapters/15-responsible-ai/) | Ethical principles, bias awareness, and social responsibility |
-| 16 | [Security, Privacy, and Compliance](/chapters/16-security-privacy/) | Protecting data and meeting regulatory requirements |
+| 15 | [Responsible AI Prompting]({{ site.baseurl }}/chapters/15-responsible-ai/) | Ethical principles, bias awareness, and social responsibility |
+| 16 | [Security, Privacy, and Compliance]({{ site.baseurl }}/chapters/16-security-privacy/) | Protecting data and meeting regulatory requirements |
 
 ---
 
@@ -93,9 +93,9 @@ Putting it all together for real-world success.
 
 | Chapter | Title | Description |
 |:-------:|:------|:------------|
-| 17 | [Implementation Roadmap](/chapters/17-implementation-roadmap/) | Phased approach to adopting structured prompting |
-| 18 | [Best Practices and Common Pitfalls](/chapters/18-best-practices/) | Proven techniques and mistakes to avoid |
-| 19 | [Future of Prompting and Continuous Learning](/chapters/19-future-prompting/) | Emerging trends and staying current |
+| 17 | [Implementation Roadmap]({{ site.baseurl }}/chapters/17-implementation-roadmap/) | Phased approach to adopting structured prompting |
+| 18 | [Best Practices and Common Pitfalls]({{ site.baseurl }}/chapters/18-best-practices/) | Proven techniques and mistakes to avoid |
+| 19 | [Future of Prompting and Continuous Learning]({{ site.baseurl }}/chapters/19-future-prompting/) | Emerging trends and staying current |
 
 ---
 
@@ -161,4 +161,4 @@ Putting it all together for real-world success.
 
 ---
 
-[Start Reading →](/chapters/01-introduction/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Start Reading →]({{ site.baseurl }}/chapters/01-introduction/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

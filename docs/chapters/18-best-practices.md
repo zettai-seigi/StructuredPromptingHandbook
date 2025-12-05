@@ -567,4 +567,4 @@ Take a prompt you've struggled with and apply the best practices:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 17: Implementation Roadmap](/chapters/17-implementation-roadmap/) | [Part VI: Implementation Guide](/part-vi-implementation/) | [Chapter 19: Future of Prompting →](/chapters/19-future-prompting/) |
+| [← Chapter 17: Implementation Roadmap]({{ site.baseurl }}/chapters/17-implementation-roadmap/) | [Part VI: Implementation Guide]({{ site.baseurl }}/part-vi-implementation/) | [Chapter 19: Future of Prompting →]({{ site.baseurl }}/chapters/19-future-prompting/) |

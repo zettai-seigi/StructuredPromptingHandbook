@@ -24,7 +24,7 @@ These chapters ensure your prompting practices are not only effective but also e
 
 ## Chapters in This Part
 
-### [Chapter 15: Responsible AI Prompting](/chapters/15-responsible-ai/)
+### [Chapter 15: Responsible AI Prompting]({{ site.baseurl }}/chapters/15-responsible-ai/)
 
 Ethical considerations in AI use, including:
 - Principles of responsible AI
@@ -32,7 +32,7 @@ Ethical considerations in AI use, including:
 - Transparency and explainability
 - Social impact considerations
 
-### [Chapter 16: Security, Privacy, and Compliance](/chapters/16-security-privacy/)
+### [Chapter 16: Security, Privacy, and Compliance]({{ site.baseurl }}/chapters/16-security-privacy/)
 
 Protecting data and meeting requirements, including:
 - Prompt injection and security risks
@@ -175,8 +175,8 @@ Completion of Parts I-IV, or equivalent understanding of:
 
 ## Next Steps
 
-Begin with [Chapter 15: Responsible AI Prompting](/chapters/15-responsible-ai/) to learn how to apply ethical principles to your AI interactions.
+Begin with [Chapter 15: Responsible AI Prompting]({{ site.baseurl }}/chapters/15-responsible-ai/) to learn how to apply ethical principles to your AI interactions.
 
 ---
 
-[Begin Part V →](/chapters/15-responsible-ai/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[Begin Part V →]({{ site.baseurl }}/chapters/15-responsible-ai/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }

@@ -103,41 +103,41 @@ Ensure quality and governance:
 ### Recommended Reading Path
 
 **For Beginners:**
-1. Start with [Chapter 1: Introduction to Structured Prompting](/chapters/01-introduction/)
-2. Learn [Core Concepts and Terminology](/chapters/02-core-concepts/)
-3. Master [The Prompting Pillars Framework](/chapters/03-prompting-pillars/)
-4. Practice with [Prompt Architecture Patterns](/chapters/04-prompt-architecture/)
+1. Start with [Chapter 1: Introduction to Structured Prompting]({{ site.baseurl }}/chapters/01-introduction/)
+2. Learn [Core Concepts and Terminology]({{ site.baseurl }}/chapters/02-core-concepts/)
+3. Master [The Prompting Pillars Framework]({{ site.baseurl }}/chapters/03-prompting-pillars/)
+4. Practice with [Prompt Architecture Patterns]({{ site.baseurl }}/chapters/04-prompt-architecture/)
 
 **For Intermediate Users:**
-1. Deep dive into [Context Engineering](/chapters/05-context-engineering/)
-2. Explore [Chain-of-Thought and Reasoning](/chapters/08-chain-of-thought/)
-3. Study [Testing and Iteration Strategies](/chapters/13-testing-iteration/)
+1. Deep dive into [Context Engineering]({{ site.baseurl }}/chapters/05-context-engineering/)
+2. Explore [Chain-of-Thought and Reasoning]({{ site.baseurl }}/chapters/08-chain-of-thought/)
+3. Study [Testing and Iteration Strategies]({{ site.baseurl }}/chapters/13-testing-iteration/)
 
 **For Advanced Practitioners:**
-1. Master [System Prompts and Persona Design](/chapters/10-system-prompts/)
-2. Implement [Multi-Turn Conversation Design](/chapters/11-multi-turn/)
-3. Apply [Best Practices and Common Pitfalls](/chapters/18-best-practices/)
+1. Master [System Prompts and Persona Design]({{ site.baseurl }}/chapters/10-system-prompts/)
+2. Implement [Multi-Turn Conversation Design]({{ site.baseurl }}/chapters/11-multi-turn/)
+3. Apply [Best Practices and Common Pitfalls]({{ site.baseurl }}/chapters/18-best-practices/)
 
 ---
 
 ## Handbook Structure
 
-### [Part I: Foundations](/part-i-foundations/)
+### [Part I: Foundations]({{ site.baseurl }}/part-i-foundations/)
 Establish the fundamental concepts, terminology, and frameworks that underpin effective prompting.
 
-### [Part II: Core Frameworks](/part-ii-core-frameworks/)
+### [Part II: Core Frameworks]({{ site.baseurl }}/part-ii-core-frameworks/)
 Explore the primary architectural patterns and design principles for constructing prompts.
 
-### [Part III: Advanced Techniques](/part-iii-advanced-techniques/)
+### [Part III: Advanced Techniques]({{ site.baseurl }}/part-iii-advanced-techniques/)
 Master sophisticated prompting methods including reasoning chains, few-shot learning, and conversation design.
 
-### [Part IV: Quality and Evaluation](/part-iv-quality-evaluation/)
+### [Part IV: Quality and Evaluation]({{ site.baseurl }}/part-iv-quality-evaluation/)
 Learn to measure, test, and continuously improve your prompting effectiveness.
 
-### [Part V: Governance and Ethics](/part-v-governance-ethics/)
+### [Part V: Governance and Ethics]({{ site.baseurl }}/part-v-governance-ethics/)
 Understand responsible AI use, security considerations, and compliance requirements.
 
-### [Part VI: Implementation Guide](/part-vi-implementation/)
+### [Part VI: Implementation Guide]({{ site.baseurl }}/part-vi-implementation/)
 Put it all together with practical implementation guidance and future-proofing strategies.
 
 ---
@@ -196,7 +196,7 @@ Before submitting a prompt, verify:
 
 ## Start Your Journey
 
-Ready to transform your AI interactions? Begin with [Chapter 1: Introduction to Structured Prompting](/chapters/01-introduction/).
+Ready to transform your AI interactions? Begin with [Chapter 1: Introduction to Structured Prompting]({{ site.baseurl }}/chapters/01-introduction/).
 
 ---
 

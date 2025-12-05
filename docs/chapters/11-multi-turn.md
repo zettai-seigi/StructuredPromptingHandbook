@@ -528,4 +528,4 @@ For the vacation planning conversation, define:
 
 | Previous | Up | Next |
 |:---------|:---|:-----|
-| [← Chapter 10: System Prompts](/chapters/10-system-prompts/) | [Part III: Advanced Techniques](/part-iii-advanced-techniques/) | [Chapter 12: Quality Dimensions →](/chapters/12-quality-dimensions/) |
+| [← Chapter 10: System Prompts]({{ site.baseurl }}/chapters/10-system-prompts/) | [Part III: Advanced Techniques]({{ site.baseurl }}/part-iii-advanced-techniques/) | [Chapter 12: Quality Dimensions →]({{ site.baseurl }}/chapters/12-quality-dimensions/) |
