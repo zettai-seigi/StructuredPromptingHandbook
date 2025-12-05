@@ -90,17 +90,13 @@ AI systems amplify human decisions at scale. Prompts that seem harmless can prod
 
 ### Bias Identification Checklist
 
-```markdown
-## Bias Check for Prompts
-
-□ Do my examples represent diverse perspectives?
-□ Am I using neutral language (not leading)?
-□ Would different groups receive equitable treatment?
-□ Are my assumptions about users warranted?
-□ Have I tested with diverse inputs?
-□ Am I avoiding stereotypes in roles/personas?
-□ Is the framing balanced (not one-sided)?
-```
+- Do my examples represent diverse perspectives?
+- Am I using neutral language (not leading)?
+- Would different groups receive equitable treatment?
+- Are my assumptions about users warranted?
+- Have I tested with diverse inputs?
+- Am I avoiding stereotypes in roles/personas?
+- Is the framing balanced (not one-sided)?
 
 ### Bias Mitigation Strategies
 
@@ -126,14 +122,8 @@ AI systems amplify human decisions at scale. Prompts that seem harmless can prod
 ```
 
 **4. Audit Outputs**
-```markdown
-Test prompts with:
-- Different names (gender/ethnicity variations)
-- Different scenarios (socioeconomic contexts)
-- Different framings (positive/negative)
 
-Compare outputs for consistency and fairness.
-```
+Test prompts with different names, scenarios, and framings. Compare outputs for consistency and fairness.
 
 ---
 
@@ -228,24 +218,11 @@ System Prompt:
 
 Before deploying a prompt at scale, consider:
 
-```markdown
-## Social Impact Assessment
-
-### Direct Impact
-- Who will use this?
-- What decisions will it influence?
-- What could go wrong?
-
-### Indirect Impact
-- Could this be misused?
-- What groups might be affected?
-- What are unintended consequences?
-
-### Scale Impact
-- What happens if this is used 1M times?
-- Does impact compound or remain isolated?
-- Are errors correctable?
-```
+| Category | Questions |
+|:---------|:----------|
+| **Direct** | Who will use this? What decisions will it influence? What could go wrong? |
+| **Indirect** | Could this be misused? What groups might be affected? What are unintended consequences? |
+| **Scale** | What happens if used 1M times? Does impact compound? Are errors correctable? |
 
 ### Use Case Evaluation
 
@@ -274,84 +251,39 @@ The **6 Control Objectives** provide a governance framework for responsible AI p
 | 5 | **Compliance Control** | Meet regulatory requirements |
 | 6 | **Quality Control** | Maintain output standards |
 
-### Control Implementation
+### Control Implementation Example: Safety
 
-```markdown
-## Control Objective: Safety
-
-### Objective Statement
-Prevent the generation of harmful, dangerous, or inappropriate content.
-
-### Control Measures
-1. Content filtering in system prompts
-2. Output review for high-risk use cases
-3. User feedback mechanisms
-4. Incident reporting and response
-
-### Metrics
-- Harmful output rate: <0.01%
-- User complaints: <1 per 10,000 interactions
-- Incident response time: <24 hours
-
-### Testing
-- Weekly adversarial testing
-- Monthly safety audit
-- Quarterly red team exercise
-```
+| Element | Details |
+|:--------|:--------|
+| **Objective** | Prevent harmful, dangerous, or inappropriate content |
+| **Measures** | Content filtering, output review, user feedback, incident response |
+| **Metrics** | Harmful output rate <0.01%, complaints <1 per 10K, response <24hrs |
+| **Testing** | Weekly adversarial, monthly audit, quarterly red team |
 
 ---
 
 ## Practical Implementation
 
-### Responsible AI Checklist
+### Pre-Deployment Checklist
 
-```markdown
-## Pre-Deployment Checklist
-
-### Accuracy
-□ Facts have been verified
-□ Uncertainty is acknowledged
-□ Sources are cited where appropriate
-
-### Safety
-□ Tested for harmful outputs
-□ Safeguards are in place
-□ Edge cases are handled
-
-### Fairness
-□ Tested for bias
-□ Diverse perspectives included
-□ Stereotypes avoided
-
-### Transparency
-□ AI nature is clear
-□ Limitations acknowledged
-□ Reasoning is explainable
-
-### Privacy
-□ No unnecessary data collection
-□ Sensitive info is protected
-□ Data handling is compliant
-
-### Accountability
-□ Human oversight defined
-□ Feedback mechanism exists
-□ Responsibility is clear
-```
+| Principle | Verify |
+|:----------|:-------|
+| **Accuracy** | Facts verified, uncertainty acknowledged, sources cited |
+| **Safety** | Tested for harmful outputs, safeguards in place, edge cases handled |
+| **Fairness** | Tested for bias, diverse perspectives, no stereotypes |
+| **Transparency** | AI nature clear, limitations acknowledged, reasoning explainable |
+| **Privacy** | Minimal data collection, sensitive info protected, handling compliant |
+| **Accountability** | Human oversight defined, feedback mechanism exists, responsibility clear |
 
 ### Escalation Triggers
 
-When to pause and review:
-
-```markdown
-STOP AND REVIEW IF:
-• Output could cause physical harm
-• Content discriminates against protected groups
-• Personal information is exposed
-• Legal or regulatory concerns arise
-• User reports concern or harm
-• Unusual patterns detected
-```
+**Stop and review if:**
+- Output could cause physical harm
+- Content discriminates against protected groups
+- Personal information is exposed
+- Legal or regulatory concerns arise
+- User reports concern or harm
+- Unusual patterns detected
 
 ---
 
