@@ -77,3 +77,6 @@ ENV/
 *.bak
 *.backup
 *~
+
+# Visual specification files (used for image generation)
+*-visuals.md
