@@ -194,6 +194,8 @@ Include at least 5 feature comparisons.
 | Price | $99 | $149 | Product A |
 | Performance | Fast | Faster | Product B |
 | Support | Email only | 24/7 | Product B |
+| Storage | 50 GB | 100 GB | Product B |
+| Ease of Use | Beginner-friendly | Advanced | Product A |
 ```
 
 ### Structured Lists
