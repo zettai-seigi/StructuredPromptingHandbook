@@ -56,6 +56,9 @@ Effective prompting follows consistent principles:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Six-box grid showing core prompting best practices. Top row: BE CLEAR (blue) - State intent clearly; BE SPECIFIC (teal) - Define exactly what you want; BE COMPLETE (orange) - Include all needed info. Bottom row: BE STRUCTURED (green) - Use formats and patterns; BE ITERATIVE (info blue) - Refine based on results; BE HUMBLE (purple) - Accept AI limitations. Each principle has a short description of its key action.]({{ site.baseurl }}/images/Figure_18.1.jpeg){: .img-fluid }
+*Figure 18.1: The six core principles of prompting best practices—clarity, specificity, completeness, structure, iteration, and humility.*
+
 ---
 
 ## Top 10 Best Practices

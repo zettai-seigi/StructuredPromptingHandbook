@@ -54,6 +54,9 @@ After completing this chapter, you will be able to:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Four-quadrant security risk landscape diagram. Top row: PROMPT-LEVEL RISKS (red) - Prompt injection, Jailbreaking, Data leakage, Social engineering; SYSTEM-LEVEL RISKS (orange) - API key exposure, Data exfiltration, Unauthorized use, Model extraction. Bottom row: USER-LEVEL RISKS (blue) - Oversharing PII, Unintended disclosure, Trust exploitation, Privacy violation; OUTPUT-LEVEL RISKS (teal) - Sensitive info exposure, Harmful content, Malicious code, Misinformation. Each quadrant lists four specific risks.]({{ site.baseurl }}/images/Figure_16.1.jpeg){: .img-fluid }
+*Figure 16.1: The security risk landscape in AI prompting spans prompt, system, user, and output levels.*
+
 ### Key Security Threats
 
 | Threat | Description | Impact |
@@ -343,6 +346,9 @@ ensure BAA is in place.
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Four-tier pyramid showing AI policy framework hierarchy. TIER 1 (blue, top): AI USE POLICY - High-level principles and governance. TIER 2 (teal): DOMAIN POLICIES - Customer Service, HR, Marketing, Development. TIER 3 (orange): OPERATIONAL PROCEDURES - Prompt reviews, Testing, Monitoring, Incident response. TIER 4 (green, base): TECHNICAL STANDARDS - Prompt templates, Security controls, Data handling. Tiers widen from top to bottom showing increasing specificity.]({{ site.baseurl }}/images/Figure_16.2.jpeg){: .img-fluid }
+*Figure 16.2: The organizational AI policy framework—from high-level principles down to specific technical standards.*
 
 ### AI Use Policy Template
 

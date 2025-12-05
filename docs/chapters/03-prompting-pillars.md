@@ -59,6 +59,9 @@ The **7 Prompting Pillars** framework provides a comprehensive mental model for 
 └─────────────────────────────────────────────────────────────────────┘
 ```
 
+![Hub-and-spoke diagram showing the 7 Prompting Pillars framework. Top row has four pillars feeding into a central hub: Clarity (1), Context (2), Constraint (3), and Composition (4). Bottom row has three pillars supporting from below: Calibration (5), Chain (6), and Critique (7). All seven pillars connect to a central 'Effective Prompt' node in the middle, illustrating how these interconnected elements work together.]({{ site.baseurl }}/images/Figure_03.1.jpeg){: .img-fluid }
+*Figure 3.1: The 7 Prompting Pillars - A comprehensive framework where seven interconnected pillars work together to create effective prompts. Pillars 1-4 provide structural elements while Pillars 5-7 add refinement and quality assurance.*
+
 ### Quick Reference
 
 | # | Pillar | Core Question | Focus |
@@ -492,6 +495,9 @@ The pillars are not isolated—they interact and reinforce each other:
 └────────────────────────────────────────────────────────────────┘
 ```
 
+![Vertical cascade diagram showing pillar dependencies and interactions. Seven pillars are stacked on the left (Clarity, Context, Constraint, Composition, Calibration, Chain, Critique) with horizontal arrows pointing to their relationships: Clarity enables Context delivery, Context informs Constraints, Constraint shapes Composition, Composition determines Calibration needs, Calibration sets tone for Chain reasoning, Chain provides material for Critique. A dashed loop arrow connects Critique back to Clarity, showing the continuous improvement cycle.]({{ site.baseurl }}/images/Figure_03.2.jpeg){: .img-fluid }
+*Figure 3.2: Pillar Interactions - Each pillar builds upon and enables the next in a continuous improvement cycle. Clear intent enables context delivery, which informs constraints, and so on through critique, which may reveal the need for additional clarity.*
+
 ### Complete Example
 
 Here's a prompt that integrates all seven pillars:
@@ -553,6 +559,9 @@ For any prompt, rate each pillar 1-5:
 | Chain | ___ | Is reasoning enabled? |
 | Critique | ___ | Is self-check built in? |
 | **Total** | ___/35 | |
+
+![Seven-row assessment scorecard for evaluating prompts against the 7 Pillars. Each row shows a pillar name, score column (1-5), and assessment question. Rows: Clarity (Is intent unambiguous?), Context (Is background sufficient?), Constraint (Are boundaries clear?), Composition (Is format specified?), Calibration (Is tone appropriate?), Chain (Is reasoning enabled?), Critique (Is self-check built in?). Total score out of 35 with color-coded interpretation bands: Excellent (30-35) in green, Good (25-29) in blue, Adequate (20-24) in yellow, Needs work (under 20) in red.]({{ site.baseurl }}/images/Figure_03.3.jpeg){: .img-fluid }
+*Figure 3.3: Pillar Assessment Scorecard - Use this tool to evaluate any prompt against the 7 Pillars. Rate each pillar 1-5, calculate your total, and use the interpretation guide to identify areas for improvement.*
 
 ### Interpretation
 

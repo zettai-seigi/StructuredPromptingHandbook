@@ -69,6 +69,9 @@ Every effective prompt shares common structural elements, though not all element
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Vertical flow diagram showing five stacked layers of prompt architecture from top to bottom: Preamble (optional, shown with dashed border) for system-level instructions and persona, Context for background and domain information, Instruction for task definition, Input Data (if applicable, shown with dashed border) for content to process, and Output Specification for format and structure requirements. Arrows connect each layer showing the recommended sequence from top to bottom.]({{ site.baseurl }}/images/Figure_04.1.jpeg){: .img-fluid }
+*Figure 4.1: The five structural components of effective prompt architecture, showing the recommended sequence from preamble to output specification.*
+
 ### Component Details
 
 | Component | Purpose | Required? |
@@ -361,6 +364,9 @@ Best for:
                                      └────────┘                  └────────┘
 ```
 
+![Decision tree flowchart for selecting the appropriate prompting framework. Starting question: 'Is the task simple & quick?' YES leads to RTF. NO leads to 'Does it require specific steps?' YES leads to RISEN. NO leads to 'Is audience the key factor?' YES leads to CO-STAR. NO leads to CRAFT. Each decision node is shown in teal with YES/NO branches in orange, and framework results in blue boxes.]({{ site.baseurl }}/images/Figure_04.2.jpeg){: .img-fluid }
+*Figure 4.2: Decision flowchart for selecting the appropriate prompting framework based on task characteristics.*
+
 ---
 
 ## Building Blocks Approach
@@ -402,6 +408,9 @@ Rather than always using complete frameworks, you can build prompts from modular
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+![Building block diagram showing three levels of prompt composition. Simple Prompt: single Task Block shown in orange. Basic Prompt: Context Block (teal) plus Task Block (orange) plus Format Block (green) connected by plus signs. Full Prompt: seven stacked blocks including Role (blue), Context (teal), Task (orange), Input (gray), Format (green), Constraint (yellow), and Example (info blue), demonstrating progressive complexity.]({{ site.baseurl }}/images/Figure_04.3.jpeg){: .img-fluid }
+*Figure 4.3: Modular building blocks combine to create prompts of varying complexity, from simple single-block prompts to comprehensive seven-block structures.*
 
 ---
 

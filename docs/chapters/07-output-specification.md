@@ -58,6 +58,9 @@ Without Specification              With Specification
 └───────────────────┘           └───────────────────┘
 ```
 
+![Side-by-side comparison diagram showing the impact of output specification. Left column 'Without Specification' has light red background with four characteristics: Variable format, Unpredictable, Manual processing, Hard to validate (each with X marks). Right column 'With Specification' has light green background with four improved characteristics: Consistent format, Predictable, Automatable, Easy to validate (each with checkmarks). Arrows point downward from headers to the result boxes.]({{ site.baseurl }}/images/Figure_07.1.jpeg){: .img-fluid }
+*Figure 7.1: The transformation from unpredictable outputs to consistent, automatable results through proper specification.*
+
 ---
 
 ## Format Specification Methods

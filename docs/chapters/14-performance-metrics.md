@@ -71,6 +71,9 @@ WITHOUT METRICS                  WITH METRICS
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Six-category 2x3 grid showing measurement categories. Top row: QUALITY (blue) - Accuracy, Relevance, Completeness, Consistency; EFFICIENCY (teal) - Response Time, Token usage, Cost per query; USER EXPERIENCE (orange) - Satisfaction, Ease of use, Trust, Task completion. Bottom row: RELIABILITY (green) - Consistency across runs, Error rate, Edge case handling; SAFETY (red) - Harmful output rate, Policy compliance; MAINTAINABILITY (info blue) - Ease of modification, Documentation quality. Each category has colored header bar and icon.]({{ site.baseurl }}/images/Figure_14.1.jpeg){: .img-fluid }
+*Figure 14.1: Six categories of prompt performance metrics spanning quality, efficiency, user experience, and operations.*
+
 ---
 
 ## Quantitative Metrics
@@ -290,6 +293,9 @@ A **benchmark** is a standardized evaluation set used to measure and compare pro
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Four-component vertical stack showing benchmark structure. TEST SET (blue): Fixed set of inputs, Representative of real usage, Includes edge cases. GOLD STANDARD (teal): Ideal outputs for each input, Or evaluation criteria. SCORING METHODOLOGY (orange): How to evaluate responses, Metrics to calculate. BASELINE SCORES (green): Reference performance to compare against. Vertical connector line on left shows progression through components.]({{ site.baseurl }}/images/Figure_14.2.jpeg){: .img-fluid }
+*Figure 14.2: The four components of a complete evaluation benchmark for consistent prompt measurement.*
+
 ### Benchmark Design Template
 
 ```markdown
@@ -354,6 +360,9 @@ Evaluate [prompt type] for [use case].
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Horizontal pipeline showing continuous monitoring flow. COLLECT (blue with database icon): Log all prompts and responses, flows right to ANALYZE (teal with chart icon): Compute metrics over time, flows right to ALERT (red with bell icon): Notify if threshold crossed. From ANALYZE, downward branch leads to DISPLAY (orange with monitor icon): Display on dashboard. Arrows show data flowing through pipeline stages.]({{ site.baseurl }}/images/Figure_14.3.jpeg){: .img-fluid }
+*Figure 14.3: The continuous monitoring pipeline—collect data, analyze metrics, alert on issues, and display on dashboard.*
 
 ### Key Monitoring Metrics
 

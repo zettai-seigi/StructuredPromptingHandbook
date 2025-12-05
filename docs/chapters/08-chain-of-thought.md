@@ -42,6 +42,9 @@ Chain-of-Thought Prompting:
 Question ──▶ Step 1 ──▶ Step 2 ──▶ Step 3 ──▶ Answer
 ```
 
+![Side-by-side comparison of two prompting approaches. Top: Standard Prompting shows a single long arrow from Question box directly to Answer box. Bottom: Chain-of-Thought Prompting shows Question flowing through three numbered Step boxes (Step 1, Step 2, Step 3) before reaching the Answer box. Question box is light blue, Steps are teal, Answer is green.]({{ site.baseurl }}/images/Figure_08.1.jpeg){: .img-fluid }
+*Figure 8.1: Standard prompting jumps directly to answers, while chain-of-thought breaks problems into visible reasoning steps.*
+
 ### Why It Works
 
 1. **Decomposition**: Complex problems become manageable parts
@@ -192,6 +195,9 @@ Problem: [Your problem here]
 └──────────────────────────────────────────────────────────────────┘
 ```
 
+![Vertical process flow diagram showing the complete chain-of-thought process. Starting with PROBLEM box (orange) at top, flowing to DECOMPOSITION box (teal) with text 'Let me break this into parts...', then through STEP 1, STEP 2, and STEP N boxes (white with teal left border) showing 'First, I need to...', 'Now, using that result...', and 'Finally...' with intermediate reasoning. Ending at CONCLUSION box (green) with 'Therefore, the answer is...'. Arrows connect each stage vertically.]({{ site.baseurl }}/images/Figure_08.2.jpeg){: .img-fluid }
+*Figure 8.2: The complete chain-of-thought process showing how problems are decomposed into steps before reaching a conclusion.*
+
 ---
 
 ## When to Use Chain-of-Thought
@@ -243,6 +249,9 @@ Problem: [Your problem here]
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Decision guide flowchart with three yes/no questions for determining when to use chain-of-thought prompting. Question 1: 'Is the task complex with multiple steps?' YES leads to 'Could benefit from CoT' (green), NO leads to 'Probably not needed' (red). Question 2: 'Is there a logical/mathematical component?' YES leads to 'Strongly consider CoT' (green), NO leads to 'Optional'. Question 3: 'Do you need to verify the reasoning?' YES leads to 'Use CoT for transparency' (green), NO leads to 'May skip for efficiency'. Each question is in a separate section with clear visual separation.]({{ site.baseurl }}/images/Figure_08.3.jpeg){: .img-fluid }
+*Figure 8.3: Decision guide for determining when chain-of-thought prompting will improve results.*
 
 ---
 

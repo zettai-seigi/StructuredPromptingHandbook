@@ -55,6 +55,9 @@ After completing this chapter, you will be able to:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Three-era timeline showing prompting evolution. PAST 2020-2022 (blue): Simple queries, Trial and error, Individual discovery; Keywords: GPT-3, exploration. Arrow leads to PRESENT 2023-2024 (teal): Structured frameworks, Patterns and best practices, Testing and iteration; Keywords: ChatGPT, prompt engineering. Arrow leads to FUTURE 2025+ (green): Automated prompting, AI-human collaboration, Adaptive systems; Keywords: Agents, multimodal, autonomous. Flow shows progression from left to right.]({{ site.baseurl }}/images/Figure_19.1.jpeg){: .img-fluid }
+*Figure 19.1: The evolution of prompting—from simple queries and trial-and-error to structured frameworks and toward automated, agentic systems.*
+
 ### Key Trends Shaping the Future
 
 | Trend | Description | Impact on Prompting |

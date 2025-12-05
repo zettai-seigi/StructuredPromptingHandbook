@@ -94,6 +94,9 @@ Instructions can operate at different levels, with higher levels taking preceden
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Vertical stack diagram showing four levels of instruction hierarchy from highest to lowest priority. Level 1 (System Instructions): Deep blue box with 'HIGHEST PRIORITY' badge containing global behavior rules and absolute constraints with example 'Never provide medical diagnoses'. Level 2 (Task Instructions): Teal box for primary requests like 'Analyze this dataset and identify trends'. Level 3 (Format Instructions): Orange box for output structure requirements like 'Present findings as a numbered list'. Level 4 (Style Instructions): Gray box with 'LOWEST PRIORITY' badge for tone and voice preferences. Downward arrows connect each level showing override direction.]({{ site.baseurl }}/images/Figure_06.1.jpeg){: .img-fluid }
+*Figure 6.1: The four-level instruction hierarchy showing priority order—system instructions override all others.*
+
 ### Hierarchy in Practice
 
 When instructions conflict, higher levels override lower levels:
@@ -411,6 +414,9 @@ Ask: "Would a new team member understand this?"
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+![Circular workflow diagram showing the instruction refinement process. Five stages: Draft (light blue box for creating initial instruction) flows to Test (teal box for running the instruction) flows to Evaluate (orange diamond decision point). From Evaluate, 'No' path in red goes to Refine (red box for improvement) which loops back to Draft. 'Yes' path in green from Evaluate leads to Document & Reuse (green success box). The loop from Refine back to Draft shows the iterative nature of instruction improvement.]({{ site.baseurl }}/images/Figure_06.2.jpeg){: .img-fluid }
+*Figure 6.2: The instruction refinement loop—an iterative process for improving instruction clarity through testing and evaluation.*
 
 ### Refinement Questions
 

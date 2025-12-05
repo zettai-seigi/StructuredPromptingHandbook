@@ -54,6 +54,9 @@ MULTI-TURN
 └──────────┘       └──────────┘
 ```
 
+![Comparison diagram showing single-turn versus multi-turn conversations. Single-Turn (top): Simple prompt box with arrow to response box, self-contained. Multi-Turn (bottom): Three prompt-response pairs stacked vertically (Prompt 1 to Response 1, Prompt 2 to Response 2, Prompt 3 to Response 3) with dashed orange arrows showing 'Context carries forward' between each turn. Prompt boxes are blue, response boxes are teal.]({{ site.baseurl }}/images/Figure_11.1.jpeg){: .img-fluid }
+*Figure 11.1: Single-turn conversations are self-contained, while multi-turn conversations build context across exchanges.*
+
 ### Key Challenges
 
 | Challenge | Description |
@@ -98,6 +101,9 @@ Start ─→ Hub ─ Topic B ─┤─→ End
             │           │
             └─ Topic C ─┘
 ```
+
+![Four-quadrant diagram showing conversation flow structures. Linear Flow (blue, top-left): Start to Step 1 to Step 2 to Step 3 to End in horizontal chain. Branching Flow (teal, top-right): Start splits into Path A, B, C leading to End A, B, C. Loop Flow (orange, bottom-left): Start to Process to Decision diamond, with iterate loop back to Process or forward to End. Hub-and-Spoke (green, bottom-right): Start to central Hub connecting to Topics A, B, C which all converge to End.]({{ site.baseurl }}/images/Figure_11.2.jpeg){: .img-fluid }
+*Figure 11.2: Four common conversation flow structures—choose based on task requirements and user interaction patterns.*
 
 ### Flow Design Template
 
@@ -173,6 +179,9 @@ Start ─→ Hub ─ Topic B ─┤─→ End
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Three-section stack diagram showing conversation state types. USER STATE (blue header with person icon): Identified preferences, Expressed needs, Skill/knowledge level, Emotional state. TASK STATE (teal header with checklist icon): Current stage of task, Completed steps, Pending items, Decisions made. CONTEXT STATE (orange header with document icon): Established facts, Shared references, Previously discussed topics, Agreed definitions. Each section has matching colored bullet points.]({{ site.baseurl }}/images/Figure_11.3.jpeg){: .img-fluid }
+*Figure 11.3: The three types of conversational state that must be tracked across multi-turn interactions.*
 
 ### Explicit State Tracking
 

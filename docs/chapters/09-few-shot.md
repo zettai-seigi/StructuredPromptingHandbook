@@ -43,6 +43,9 @@ Few-Shot:      Instruction + N Examples ─────────▶ Task
                (typically 2-5 examples)
 ```
 
+![Horizontal progression diagram showing three prompting paradigms. Zero-Shot: Single 'Instruction' element with arrow to 'Task'. One-Shot: 'Instruction + 1 Example' with arrow to 'Task'. Few-Shot: 'Instruction + N Examples' (with note 'typically 2-5 examples') with arrow to 'Task'. Visual shows increasing complexity from top to bottom with graduated shading.]({{ site.baseurl }}/images/Figure_09.1.jpeg){: .img-fluid }
+*Figure 9.1: The progression from zero-shot (no examples) through one-shot to few-shot prompting with multiple examples.*
+
 ### Why It Works
 
 1. **Pattern Recognition**: AI extracts patterns from examples
@@ -125,6 +128,9 @@ The examples communicate tone, formality level, and transformation patterns more
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Vertical six-step process flow for selecting few-shot examples. Step 1 IDENTIFY (blue): Target task pattern. Step 2 BRAINSTORM (teal): Potential example inputs. Step 3 FILTER (orange): Diversity and representativeness. Step 4 CREATE (green): Ideal outputs for each input. Step 5 ORDER (info blue): From simple to complex. Step 6 TEST (blue): With target inputs to verify pattern transfer. Each step connected by arrows showing sequential flow.]({{ site.baseurl }}/images/Figure_09.2.jpeg){: .img-fluid }
+*Figure 9.2: The six-step process for selecting effective few-shot examples, from identifying patterns to testing transfer.*
+
 ### Example Diversity Strategy
 
 Ensure examples cover:
@@ -150,6 +156,9 @@ Ensure examples cover:
 │                                                                │
 └────────────────────────────────────────────────────────────────┘
 ```
+
+![Three-section category diagram showing dimensions of example diversity. Length Diversity section (blue header): Short, Medium, and Long input examples with visual bar representations. Complexity Diversity section (teal header): Simple clear-cut case, Moderate complexity, and Edge case or unusual situation. Content Diversity section (orange header): Different topics/domains within scope and different structures within the input type.]({{ site.baseurl }}/images/Figure_09.3.jpeg){: .img-fluid }
+*Figure 9.3: The three dimensions of example diversity to ensure comprehensive coverage in few-shot prompts.*
 
 ---
 
@@ -279,6 +288,9 @@ Fewer examples sufficient when:
 Quality improves rapidly at first, then plateaus.
 Usually 2-5 examples capture most of the benefit.
 ```
+
+![Line graph showing diminishing returns curve for few-shot examples. X-axis shows Number of Examples (1 through 6+). Y-axis shows Quality. Curve rises steeply from 1 to 3 examples, then gradually plateaus after 4-5 examples. The optimal zone (2-5 examples) is highlighted with light green shading. Annotation indicates that quality improves rapidly at first then plateaus.]({{ site.baseurl }}/images/Figure_09.4.jpeg){: .img-fluid }
+*Figure 9.4: The diminishing returns curve showing optimal example count—typically 2-5 examples capture most benefits.*
 
 ---
 

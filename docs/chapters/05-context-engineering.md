@@ -46,6 +46,9 @@ Without Context                    With Context
 └─────────────┘                  └─────────────┘
 ```
 
+![Side-by-side comparison diagram illustrating the impact of context. Left side shows 'Without Context' path leading to 'Generic Response (May fit or miss)' box with red accents and dashed border. Right side shows 'With Context' path leading to 'Specific Response (Tailored to need)' box with green accents and solid border. Arrows point downward from each header to the result boxes.]({{ site.baseurl }}/images/Figure_05.3.jpeg){: .img-fluid }
+*Figure 5.3: The difference context makes—from generic, hit-or-miss responses to tailored, precise outputs.*
+
 ### Context Example
 
 **Without Context:**
@@ -94,6 +97,9 @@ Response: [Specific Express middleware solution with code]
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
 ```
+
+![Grid layout showing seven context type boxes in two rows. Top row has four boxes: Domain Context (Industry knowledge, blue), Task Context (Goal of the current task, teal), User Context (Who is asking, orange), System Context (Technical environment, gray). Bottom row has three boxes: Historical Context (Previous interactions, green), Data Context (Content to process, purple), Constraint Context (Boundaries and limits, red). Each box has a title and description with arrows pointing to their core function.]({{ site.baseurl }}/images/Figure_05.1.jpeg){: .img-fluid }
+*Figure 5.1: The seven types of context that inform effective prompting, from domain expertise to constraint boundaries.*
 
 ### Context Type Details
 
@@ -324,6 +330,9 @@ handling in the checkout flow...
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
+
+![Budget allocation diagram showing token distribution within an 8,000 token limit. Reserved for Response takes 3,000 tokens (light blue). Available for Input (5,000 tokens) is divided into: System Prompt (500 tokens, teal), User Prompt (1,500 tokens, orange), and Context/Data (3,000 tokens, primary blue). Each section is proportionally sized as horizontal bars with token counts displayed.]({{ site.baseurl }}/images/Figure_05.2.jpeg){: .img-fluid }
+*Figure 5.2: Token budget allocation showing how context competes with other prompt components for available input space.*
 
 ### Context Prioritization
 

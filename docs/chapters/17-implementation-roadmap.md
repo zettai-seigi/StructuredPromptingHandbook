@@ -56,6 +56,9 @@ The journey to prompting mastery follows a predictable path:
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Four-phase horizontal journey diagram showing adoption progression. PHASE 1 Foundation (blue): Learn Basics, Duration 2-4 weeks, Focus on Vocabulary, Concepts, Basic skills. Arrow leads to PHASE 2 Adoption (teal): Apply Patterns, Duration 4-8 weeks, Focus on Daily use, Templates, Patterns. Arrow leads to PHASE 3 Optimization (orange): Optimize Results, Duration 2-4 months, Focus on Metrics, Testing, Refinement. Arrow leads to PHASE 4 Mastery (green): Lead Others, Duration Ongoing, Focus on Mentoring, Innovation, Community. Each phase box shows duration and key focus areas below.]({{ site.baseurl }}/images/Figure_17.1.jpeg){: .img-fluid }
+*Figure 17.1: The four-phase adoption journey from learning basics to leading others in structured prompting mastery.*
+
 ### The 4 Maturity Levels
 
 | Level | Name | Characteristics | Time to Achieve |

@@ -60,6 +60,9 @@ Individual knowledge       →      Documented patterns
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Four-column benefits grid showing prompt testing advantages. QUALITY (blue with shield icon): Catch issues early. EFFICIENCY (teal with speedometer icon): Find optimal prompts faster. CONFIDENCE (orange with checkmark icon): Know it works before deploy. KNOWLEDGE (green with lightbulb icon): Learn what works and why. Each benefit box has colored header bar with centered description text.]({{ site.baseurl }}/images/Figure_13.2.jpeg){: .img-fluid }
+*Figure 13.2: The four key benefits of systematic prompt testing—Quality, Efficiency, Confidence, and Knowledge.*
+
 ---
 
 ## The Prompt Testing Lifecycle
@@ -90,6 +93,9 @@ Individual knowledge       →      Documented patterns
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Six-stage circular workflow showing prompt testing lifecycle. Top row flows left to right: 1. DESIGN (blue) for creating prompt, to 2. TEST (teal) for execution, to 3. ANALYZE (orange) for reviewing results. Middle shows 4. EVALUATE (green) for scoring connects to 5. ITERATE (yellow) for refinement which loops back to DESIGN. Exit path from ITERATE leads to 6. DOCUMENT & Deploy (dark blue) at bottom. Arrows show clockwise flow with iteration loop emphasized.]({{ site.baseurl }}/images/Figure_13.1.jpeg){: .img-fluid }
+*Figure 13.1: The six-stage prompt testing lifecycle from initial design through documentation and deployment.*
 
 ### Stage Details
 
@@ -198,6 +204,9 @@ Test inputs should cover:
         │    Results      │
         └─────────────────┘
 ```
+
+![A/B testing comparison flow diagram. Starting with Same Input(s) box (blue) at top, splitting into two parallel paths: left path shows Prompt A (teal) producing Output A (teal), right path shows Prompt B (orange) producing Output B (orange). Both output paths merge at bottom into Compare Results box (green). Symmetrical layout emphasizes fair comparison between variants.]({{ site.baseurl }}/images/Figure_13.3.jpeg){: .img-fluid }
+*Figure 13.3: A/B testing flow—run the same inputs through two prompt variants and compare results.*
 
 ### A/B Test Design
 
@@ -320,6 +329,9 @@ Version 1.3: With role + format + constraints
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Four-quadrant circular diagram showing the PDCA (Plan-Do-Check-Act) cycle. PLAN quadrant (blue, top-left): Identify improvement opportunity. DO quadrant (teal, top-right): Implement change. CHECK quadrant (orange, bottom-right): Test and measure. ACT quadrant (green, bottom-left): Standardize if it works. Clockwise arrows connect all quadrants showing continuous improvement flow.]({{ site.baseurl }}/images/Figure_13.4.jpeg){: .img-fluid }
+*Figure 13.4: The Plan-Do-Check-Act (PDCA) cycle for systematic prompt iteration and improvement.*
 
 ### Iteration Best Practices
 

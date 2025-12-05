@@ -65,6 +65,9 @@ The **5 Quality Dimensions** provide a comprehensive framework for evaluating th
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Five vertically stacked boxes representing the quality dimensions framework. Each box has a colored accent bar on the left: 1. RELEVANCE (blue) - Does it address what was actually asked? 2. ACCURACY (teal) - Is the information factually correct? 3. COMPLETENESS (orange) - Are all aspects of the request covered? 4. COHERENCE (green) - Is it logically structured and easy to follow? 5. ACTIONABILITY (yellow) - Can the output be directly used for its purpose?]({{ site.baseurl }}/images/Figure_12.1.jpeg){: .img-fluid }
+*Figure 12.1: The 5 Quality Dimensions framework for comprehensive prompt and response evaluation.*
+
 ### Summary Table
 
 | Dimension | Definition | Key Question |
@@ -261,6 +264,9 @@ you couldn't fully address."
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Three-column diagram showing coherence elements. ORGANIZATION column (blue): Clear sections, Proper hierarchy, Consistent formatting. FLOW column (teal): Logical progression, Smooth transitions, No jumps or gaps. CLARITY column (orange): Unambiguous language, Consistent terminology, No jargon without definition. Each column has an icon (grid for Organization, arrow for Flow, eye for Clarity).]({{ site.baseurl }}/images/Figure_12.2.jpeg){: .img-fluid }
+*Figure 12.2: The three elements of coherence—Organization, Flow, and Clarity—that make responses understandable.*
+
 ### Improving Coherence
 
 **Structure Specification:**
@@ -426,6 +432,9 @@ Action: □ Use as-is  □ Minor edit  □ Re-prompt
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Circular workflow diagram showing quality improvement cycle. RUN (blue box): Execute prompt, flows to ASSESS (teal box): Score on 5 dimensions, flows to IDENTIFY GAPS (orange box). If issues found, flows to REVISE (red box): Improve prompt, which loops back to RUN. If no issues, flows to DOCUMENT SUCCESS (green box). The cycle emphasizes continuous iteration until quality standards are met.]({{ site.baseurl }}/images/Figure_12.3.jpeg){: .img-fluid }
+*Figure 12.3: The quality improvement cycle—assess, identify gaps, revise, and repeat until success.*
 
 ### Prioritizing Improvements
 

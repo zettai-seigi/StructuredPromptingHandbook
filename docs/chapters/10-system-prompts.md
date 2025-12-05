@@ -65,6 +65,9 @@ A **system prompt** (also called system message or system instruction) is a spec
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+![Vertical hierarchy diagram showing three prompt levels. SYSTEM PROMPT (deep blue, largest box at top): Highest priority, sets global behavior, defines persona, establishes constraints, persistent across conversation. Arrow points down to USER PROMPT (teal, medium box): Individual requests, specific tasks, operates within system constraints. Arrow points down to AI RESPONSE (orange, smallest box): Shaped by both system and user prompts. Size gradient reinforces priority order.]({{ site.baseurl }}/images/Figure_10.1.jpeg){: .img-fluid }
+*Figure 10.1: The prompt hierarchy showing how system prompts take precedence over user prompts in shaping AI responses.*
+
 ### What System Prompts Control
 
 | Aspect | Description | Example |
@@ -118,6 +121,9 @@ A **system prompt** (also called system message or system instruction) is a spec
 │                                                                 │
 └─────────────────────────────────────────────────────────────────┘
 ```
+
+![Six-block vertical component diagram showing system prompt anatomy. Block 1 IDENTITY (blue): Who are you? What is your role? Block 2 PURPOSE (teal): What are you designed to do? Block 3 BEHAVIOR (orange): How should you act and respond? Block 4 CONSTRAINTS (red): What must you avoid or never do? Block 5 KNOWLEDGE (light gray, dashed border, marked optional): What information do you have access to? Block 6 FORMAT (light gray, dashed border, marked optional): How should you structure responses?]({{ site.baseurl }}/images/Figure_10.2.jpeg){: .img-fluid }
+*Figure 10.2: The six components of a comprehensive system prompt, with knowledge and format blocks being optional.*
 
 ### Example System Prompt Structure
 
@@ -182,6 +188,9 @@ Generic                                              Specific
      │              │              │              │
  Very broad    Domain focus   Role specific   Full character
 ```
+
+![Horizontal spectrum diagram showing four levels of persona specificity. From left (Generic) to right (Specific): 'Helpful Assistant' (very broad) in lightest shade, 'Writing Assistant' (domain focus), 'Marketing Copywriter' (role specific), 'Sarah, 15-yr Marketing Director' (full character) in darkest shade. Gradient bar above shows progression from light to dark. Labels below each persona box indicate specificity level.]({{ site.baseurl }}/images/Figure_10.3.jpeg){: .img-fluid }
+*Figure 10.3: The persona spectrum from generic assistants to fully characterized AI personalities.*
 
 ### Persona Design Template
 

@@ -48,6 +48,9 @@ This isn't just about writing "better" prompts—it's about understanding *why* 
 | **Scalability** | Hard to share | Teachable and transferable |
 | **Improvement** | Random optimization | Measurable iteration |
 
+![Comparison table showing differences between structured and unstructured prompting across five dimensions: approach, consistency, learning, scalability, and improvement. Structured prompting uses systematic frameworks, produces reproducible outcomes, follows documented patterns, is teachable, and enables measurable iteration.]({{ site.baseurl }}/images/Figure_01.3.jpeg){: .img-fluid }
+*Figure 1.3: Structured vs. Unstructured Prompting - Structured prompting transforms AI interaction from guesswork into a systematic, repeatable discipline with measurable results.*
+
 ---
 
 ## The Evolution of Prompt Engineering
@@ -90,6 +93,9 @@ Timeline: Evolution of Prompt Engineering
 │LLMs │──▶│Era  │──▶│Explosion│──▶│Emergence│──▶│Adoption │──▶│Discipline│
 └─────┘   └─────┘   └─────────┘   └─────────┘   └─────────┘   └─────────┘
 ```
+
+![Timeline showing the evolution of prompt engineering from 2020 to 2025, progressing through six eras: Early LLMs, GPT-3 Era, ChatGPT Explosion, Framework Emergence, Enterprise Adoption, and Mature Discipline. Each era is connected by arrows showing the progression of the field.]({{ site.baseurl }}/images/Figure_01.1.jpeg){: .img-fluid }
+*Figure 1.1: The Evolution of Prompt Engineering - From experimental LLM interactions in 2020 through today's established discipline with documented frameworks, professional practices, and enterprise adoption.*
 
 ---
 
@@ -145,6 +151,9 @@ Most users experience similar challenges:
 | **Unusability** | Can't use the output directly | Poor format specification |
 | **Inefficiency** | Many iterations needed | No systematic approach |
 
+![Diagnostic table showing five common prompting challenges with their symptoms and root causes: Inconsistency (variable results from insufficient constraints), Irrelevance (missed point from unclear intent), Incompleteness (missing info from insufficient specification), Unusability (output not directly usable from poor format), and Inefficiency (many iterations from no systematic approach).]({{ site.baseurl }}/images/Figure_01.4.jpeg){: .img-fluid }
+*Figure 1.4: Common Prompting Pain Points - Understanding the root causes of prompting challenges enables targeted improvement through specific techniques covered in this handbook.*
+
 ### The Knowledge Gap
 
 The gap between casual users and experts isn't talent—it's knowledge:
@@ -163,6 +172,9 @@ The gap between casual users and experts isn't talent—it's knowledge:
 
 This handbook bridges that gap with frameworks, patterns, and practices.
 ```
+
+![Horizontal spectrum diagram showing the knowledge gap in prompting. On the left labeled 'Novice' is a shaded section showing 'What Most People Know'. A large gap in the middle separates this from the right side labeled 'Expert' showing 'What Works' in solid fill. A bridge element indicates this handbook bridges that gap.]({{ site.baseurl }}/images/Figure_01.2.jpeg){: .img-fluid }
+*Figure 1.2: The Knowledge Gap in Prompting - The difference between novice and expert isn't talent—it's knowledge. This handbook provides the frameworks, patterns, and practices to bridge that gap.*
 
 ---
 
@@ -284,6 +296,9 @@ Answer these questions honestly:
 | 5-9 | Practitioner | Focus on Parts II-III |
 | 10-12 | Expert | Explore Parts IV-V |
 | 13-15 | Master | Review Part VI, contribute back |
+
+![Assessment scoring guide showing four maturity levels as ascending steps: Novice (score 0-4, start with Parts I-II), Practitioner (score 5-9, focus on Parts II-III), Expert (score 10-12, explore Parts IV-V), and Master (score 13-15, review Part VI, contribute back). Each level has a distinct color and recommended reading path.]({{ site.baseurl }}/images/Figure_01.5.jpeg){: .img-fluid }
+*Figure 1.5: Self-Assessment Scoring Guide - Use your assessment score to identify your current maturity level and the recommended reading path for maximum learning efficiency.*
 
 ---
 
