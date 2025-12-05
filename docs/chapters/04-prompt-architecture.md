@@ -389,28 +389,13 @@ Provide your review as:
 - Recommendations: Specific improvements
 ```
 
-**Usage Example:**
+**Usage Example** (with variables filled in):
 
-```text
-You are a senior Python developer conducting a code review.
-
-Review the following code for:
-1. Correctness and potential bugs
-2. Performance issues
-3. Security vulnerabilities
-4. Code style and readability
-5. Error handling patterns
-
-Code to review:
-def process_user_data(data):
-    result = eval(data['formula'])
-    return result
-
-Provide your review as:
-- Issues Found: Numbered list with severity (Critical/Major/Minor)
-- Positive Observations: What's done well
-- Recommendations: Specific improvements
-```
+| Variable | Value |
+|:---------|:------|
+| `{language}` | Python |
+| `{code}` | `def process_user_data(data): result = eval(data['formula'])...` |
+| `{focus_areas}` | Error handling patterns |
 
 ---
 
