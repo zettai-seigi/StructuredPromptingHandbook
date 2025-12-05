@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 300">
+  <defs>
+    <linearGradient id="orgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="clarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="10" y="10" width="630" height="280" fill="#ffffff" rx="10" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="10" y="10" width="630" height="50" fill="#2c3e50" rx="10"/>
+  <rect x="10" y="40" width="630" height="20" fill="#2c3e50"/>
+  <text x="325" y="42" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">COHERENCE ELEMENTS</text>
+
+  <!-- Organization -->
+  <rect x="40" y="80" width="180" height="170" fill="url(#orgGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="130" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">ORGANIZATION</text>
+  <text x="60" y="140" font-family="Arial, sans-serif" font-size="11" fill="#fff">Clear sections</text>
+  <text x="60" y="165" font-family="Arial, sans-serif" font-size="11" fill="#fff">Proper hierarchy</text>
+  <text x="60" y="190" font-family="Arial, sans-serif" font-size="11" fill="#fff">Consistent formatting</text>
+
+  <!-- Flow -->
+  <rect x="235" y="80" width="180" height="170" fill="url(#flowGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="325" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff" text-anchor="middle">FLOW</text>
+  <text x="255" y="140" font-family="Arial, sans-serif" font-size="11" fill="#fff">Logical progression</text>
+  <text x="255" y="165" font-family="Arial, sans-serif" font-size="11" fill="#fff">Smooth transitions</text>
+  <text x="255" y="190" font-family="Arial, sans-serif" font-size="11" fill="#fff">No jumps or gaps</text>
+
+  <!-- Clarity -->
+  <rect x="430" y="80" width="180" height="170" fill="url(#clarGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="520" y="110" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50" text-anchor="middle">CLARITY</text>
+  <text x="450" y="140" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Unambiguous language</text>
+  <text x="450" y="165" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Consistent terminology</text>
+  <text x="450" y="190" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">No undefined jargon</text>
+</svg>

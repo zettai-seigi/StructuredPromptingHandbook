@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 380">
+  <defs>
+    <linearGradient id="userStateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="taskStateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="contextStateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="10" y="10" width="630" height="360" fill="#ffffff" rx="10" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="10" y="10" width="630" height="50" fill="#2c3e50" rx="10"/>
+  <rect x="10" y="40" width="630" height="20" fill="#2c3e50"/>
+  <text x="325" y="42" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">CONVERSATION STATE</text>
+
+  <!-- User State -->
+  <rect x="40" y="80" width="280" height="120" fill="url(#userStateGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="60" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff">USER STATE</text>
+  <text x="60" y="125" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Identified preferences</text>
+  <text x="60" y="142" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Expressed needs</text>
+  <text x="60" y="159" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Skill/knowledge level</text>
+  <text x="60" y="176" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Emotional state</text>
+
+  <!-- Task State -->
+  <rect x="330" y="80" width="280" height="120" fill="url(#taskStateGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="350" y="105" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#fff">TASK STATE</text>
+  <text x="350" y="125" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Current stage of task</text>
+  <text x="350" y="142" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Completed steps</text>
+  <text x="350" y="159" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Pending items</text>
+  <text x="350" y="176" font-family="Arial, sans-serif" font-size="11" fill="#fff">- Decisions made</text>
+
+  <!-- Context State -->
+  <rect x="40" y="220" width="570" height="120" fill="url(#contextStateGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="60" y="250" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">CONTEXT STATE</text>
+  <text x="60" y="275" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">- Established facts</text>
+  <text x="60" y="295" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">- Shared references</text>
+  <text x="300" y="275" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">- Previously discussed topics</text>
+  <text x="300" y="295" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">- Agreed definitions</text>
+</svg>

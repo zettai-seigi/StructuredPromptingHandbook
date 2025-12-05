@@ -34,36 +34,7 @@ A **system prompt** (also called system message or system instruction) is a spec
 
 ### System vs. User Prompts
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    PROMPT HIERARCHY                             │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │                    SYSTEM PROMPT                          │ │
-│  │  • Highest priority                                       │ │
-│  │  • Sets global behavior                                   │ │
-│  │  • Defines persona                                        │ │
-│  │  • Establishes constraints                                │ │
-│  │  • Persistent across conversation                         │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                              │                                  │
-│                              ▼                                  │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │                    USER PROMPT                            │ │
-│  │  • Individual requests                                    │ │
-│  │  • Specific tasks                                         │ │
-│  │  • Operates within system constraints                     │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                              │                                  │
-│                              ▼                                  │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │                    AI RESPONSE                            │ │
-│  │  • Shaped by both system and user prompts                │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![Prompt Hierarchy]({{ site.baseurl }}/assets/images/prompt-hierarchy.svg)
 
 ### What System Prompts Control
 
@@ -81,43 +52,7 @@ A **system prompt** (also called system message or system instruction) is a spec
 
 ### Core Components
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                   SYSTEM PROMPT ANATOMY                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │ 1. IDENTITY BLOCK                                         │ │
-│  │    Who are you? What is your role?                        │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                                                                 │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │ 2. PURPOSE BLOCK                                          │ │
-│  │    What are you designed to do?                           │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                                                                 │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │ 3. BEHAVIOR BLOCK                                         │ │
-│  │    How should you act and respond?                        │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                                                                 │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │ 4. CONSTRAINTS BLOCK                                      │ │
-│  │    What must you avoid or never do?                       │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                                                                 │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │ 5. KNOWLEDGE BLOCK (Optional)                             │ │
-│  │    What information do you have access to?                │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                                                                 │
-│  ┌───────────────────────────────────────────────────────────┐ │
-│  │ 6. FORMAT BLOCK (Optional)                                │ │
-│  │    How should you structure responses?                    │ │
-│  └───────────────────────────────────────────────────────────┘ │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![System Prompt Anatomy]({{ site.baseurl }}/assets/images/system-prompt-anatomy.svg)
 
 ### Example System Prompt Structure
 

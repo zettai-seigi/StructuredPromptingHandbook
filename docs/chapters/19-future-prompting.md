@@ -30,30 +30,7 @@ After completing this chapter, you will be able to:
 
 ### Where We've Been, Where We're Going
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    PROMPTING EVOLUTION                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  PAST                  PRESENT              FUTURE              │
-│  (2020-2022)           (2023-2024)          (2025+)            │
-│                                                                 │
-│  ┌─────────────┐      ┌─────────────┐      ┌─────────────┐     │
-│  │ • Simple    │      │ • Structured│      │ • Automated │     │
-│  │   queries   │      │   frameworks│      │   prompting │     │
-│  │ • Trial &   │      │ • Patterns  │      │ • AI-human  │     │
-│  │   error     │──────▶  & best    │──────▶  collabor.  │     │
-│  │ • Individual│      │   practices │      │ • Adaptive  │     │
-│  │   discovery │      │ • Testing & │      │   systems   │     │
-│  │             │      │   iteration │      │             │     │
-│  └─────────────┘      └─────────────┘      └─────────────┘     │
-│                                                                 │
-│  Keywords:             Keywords:            Keywords:           │
-│  GPT-3, exploration    ChatGPT, prompt      Agents, multimodal │
-│                        engineering          autonomous          │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![Prompting Evolution]({{ site.baseurl }}/assets/images/prompting-evolution.svg)
 
 ### Key Trends Shaping the Future
 
@@ -163,27 +140,7 @@ Despite technological changes, core prompting skills will remain valuable:
 
 ### The Learning Framework
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                  CONTINUOUS LEARNING FRAMEWORK                  │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│     OBSERVE          EXPERIMENT         REFLECT                 │
-│     ┌───────┐        ┌───────┐          ┌───────┐              │
-│     │ Watch │        │ Try   │          │ Learn │              │
-│     │ trends│───────▶│ new   │─────────▶│ from  │              │
-│     │       │        │ things│          │ results│             │
-│     └───────┘        └───────┘          └───────┘              │
-│         ▲                                    │                  │
-│         │                                    │                  │
-│         │         ┌───────┐                  │                  │
-│         └─────────│ ADAPT │◀─────────────────┘                  │
-│                   │ your  │                                     │
-│                   │practice│                                    │
-│                   └───────┘                                     │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![Continuous Learning Framework]({{ site.baseurl }}/assets/images/continuous-learning.svg)
 
 ### Staying Current
 

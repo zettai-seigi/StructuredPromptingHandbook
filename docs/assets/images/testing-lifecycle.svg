@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 400">
+  <defs>
+    <linearGradient id="stepGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="docGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#2c3e50"/>
+    </marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="10" y="10" width="630" height="380" fill="#ffffff" rx="10" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="10" y="10" width="630" height="50" fill="#2c3e50" rx="10"/>
+  <rect x="10" y="40" width="630" height="20" fill="#2c3e50"/>
+  <text x="325" y="42" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">PROMPT TESTING LIFECYCLE</text>
+
+  <!-- Step 1: Design -->
+  <rect x="60" y="90" width="100" height="55" fill="url(#stepGrad)" rx="8" filter="url(#shadow)"/>
+  <text x="110" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">1. DESIGN</text>
+  <text x="110" y="132" font-family="Arial, sans-serif" font-size="9" fill="#fff" text-anchor="middle">Prompt</text>
+
+  <!-- Arrow -->
+  <line x1="160" y1="117" x2="195" y2="117" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 2: Test -->
+  <rect x="205" y="90" width="100" height="55" fill="url(#stepGrad)" rx="8" filter="url(#shadow)"/>
+  <text x="255" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">2. TEST</text>
+  <text x="255" y="132" font-family="Arial, sans-serif" font-size="9" fill="#fff" text-anchor="middle">Execute</text>
+
+  <!-- Arrow -->
+  <line x1="305" y1="117" x2="340" y2="117" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 3: Analyze -->
+  <rect x="350" y="90" width="100" height="55" fill="url(#stepGrad)" rx="8" filter="url(#shadow)"/>
+  <text x="400" y="115" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">3. ANALYZE</text>
+  <text x="400" y="132" font-family="Arial, sans-serif" font-size="9" fill="#fff" text-anchor="middle">Results</text>
+
+  <!-- Arrow down -->
+  <line x1="400" y1="145" x2="400" y2="185" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 4: Evaluate -->
+  <rect x="350" y="195" width="100" height="55" fill="url(#stepGrad)" rx="8" filter="url(#shadow)"/>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">4. EVALUATE</text>
+  <text x="400" y="237" font-family="Arial, sans-serif" font-size="9" fill="#fff" text-anchor="middle">Score</text>
+
+  <!-- Arrow left -->
+  <line x1="350" y1="222" x2="310" y2="222" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 5: Iterate -->
+  <rect x="205" y="195" width="100" height="55" fill="url(#stepGrad)" rx="8" filter="url(#shadow)"/>
+  <text x="255" y="220" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#fff" text-anchor="middle">5. ITERATE</text>
+  <text x="255" y="237" font-family="Arial, sans-serif" font-size="9" fill="#fff" text-anchor="middle">Refine</text>
+
+  <!-- Arrow back up -->
+  <path d="M 205 222 L 60 222 L 60 145" stroke="#2c3e50" stroke-width="2" fill="none" marker-end="url(#arrowhead)"/>
+
+  <!-- Arrow down from Iterate -->
+  <line x1="255" y1="250" x2="255" y2="290" stroke="#2c3e50" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- Step 6: Document -->
+  <rect x="185" y="300" width="140" height="55" fill="url(#docGrad)" rx="8" filter="url(#shadow)"/>
+  <text x="255" y="325" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50" text-anchor="middle">6. DOCUMENT</text>
+  <text x="255" y="342" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50" text-anchor="middle">& Deploy</text>
+
+  <!-- Legend -->
+  <rect x="480" y="180" width="140" height="90" fill="#f0f0f0" rx="5" stroke="#ddd"/>
+  <text x="500" y="205" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">Key Stages:</text>
+  <text x="500" y="225" font-family="Arial, sans-serif" font-size="9" fill="#666">Design: Create prompt</text>
+  <text x="500" y="240" font-family="Arial, sans-serif" font-size="9" fill="#666">Test: Run tests</text>
+  <text x="500" y="255" font-family="Arial, sans-serif" font-size="9" fill="#666">Iterate: Improve</text>
+</svg>

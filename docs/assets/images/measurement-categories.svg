@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 360">
+  <defs>
+    <linearGradient id="qualGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="effGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="uxGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#43e97b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#38f9d7;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="relGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="safeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d68910;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="maintGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9b59b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e44ad;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="10" y="10" width="680" height="340" fill="#ffffff" rx="10" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="10" y="10" width="680" height="50" fill="#2c3e50" rx="10"/>
+  <rect x="10" y="40" width="680" height="20" fill="#2c3e50"/>
+  <text x="350" y="42" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">MEASUREMENT CATEGORIES</text>
+
+  <!-- Row 1 -->
+  <!-- Quality -->
+  <rect x="40" y="80" width="200" height="100" fill="url(#qualGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="140" y="105" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">QUALITY</text>
+  <text x="60" y="130" font-family="Arial, sans-serif" font-size="10" fill="#fff">Accuracy</text>
+  <text x="60" y="148" font-family="Arial, sans-serif" font-size="10" fill="#fff">Relevance</text>
+  <text x="60" y="166" font-family="Arial, sans-serif" font-size="10" fill="#fff">Completeness</text>
+
+  <!-- Efficiency -->
+  <rect x="250" y="80" width="200" height="100" fill="url(#effGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="350" y="105" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">EFFICIENCY</text>
+  <text x="270" y="130" font-family="Arial, sans-serif" font-size="10" fill="#fff">Response Time</text>
+  <text x="270" y="148" font-family="Arial, sans-serif" font-size="10" fill="#fff">Token usage</text>
+  <text x="270" y="166" font-family="Arial, sans-serif" font-size="10" fill="#fff">Cost per query</text>
+
+  <!-- User Experience -->
+  <rect x="460" y="80" width="200" height="100" fill="url(#uxGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="560" y="105" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50" text-anchor="middle">USER EXPERIENCE</text>
+  <text x="480" y="130" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Satisfaction</text>
+  <text x="480" y="148" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Ease of use</text>
+  <text x="480" y="166" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Task completion</text>
+
+  <!-- Row 2 -->
+  <!-- Reliability -->
+  <rect x="40" y="200" width="200" height="100" fill="url(#relGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="140" y="225" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">RELIABILITY</text>
+  <text x="60" y="250" font-family="Arial, sans-serif" font-size="10" fill="#fff">Consistency</text>
+  <text x="60" y="268" font-family="Arial, sans-serif" font-size="10" fill="#fff">Error rate</text>
+  <text x="60" y="286" font-family="Arial, sans-serif" font-size="10" fill="#fff">Edge case handling</text>
+
+  <!-- Safety -->
+  <rect x="250" y="200" width="200" height="100" fill="url(#safeGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="350" y="225" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">SAFETY</text>
+  <text x="270" y="250" font-family="Arial, sans-serif" font-size="10" fill="#fff">Harmful output rate</text>
+  <text x="270" y="268" font-family="Arial, sans-serif" font-size="10" fill="#fff">Policy compliance</text>
+
+  <!-- Maintainability -->
+  <rect x="460" y="200" width="200" height="100" fill="url(#maintGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="560" y="225" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">MAINTAINABILITY</text>
+  <text x="480" y="250" font-family="Arial, sans-serif" font-size="10" fill="#fff">Ease of modification</text>
+  <text x="480" y="268" font-family="Arial, sans-serif" font-size="10" fill="#fff">Documentation quality</text>
+</svg>

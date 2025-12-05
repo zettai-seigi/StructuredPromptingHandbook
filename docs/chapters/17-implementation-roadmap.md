@@ -32,29 +32,7 @@ After completing this chapter, you will be able to:
 
 The journey to prompting mastery follows a predictable path:
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    THE ADOPTION JOURNEY                         │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  PHASE 1          PHASE 2          PHASE 3         PHASE 4     │
-│  Foundation       Adoption         Optimization    Mastery      │
-│                                                                 │
-│  ┌─────────┐     ┌─────────┐      ┌─────────┐    ┌─────────┐  │
-│  │  Learn  │────▶│  Apply  │─────▶│ Optimize│───▶│  Lead   │  │
-│  │  Basics │     │ Patterns│      │ Results │    │ Others  │  │
-│  └─────────┘     └─────────┘      └─────────┘    └─────────┘  │
-│                                                                 │
-│  Duration:        Duration:        Duration:      Duration:     │
-│  2-4 weeks        4-8 weeks        2-4 months     Ongoing       │
-│                                                                 │
-│  Focus:           Focus:           Focus:         Focus:        │
-│  • Vocabulary     • Daily use      • Metrics      • Mentoring   │
-│  • Concepts       • Templates      • Testing      • Innovation  │
-│  • Basic skills   • Patterns       • Refinement   • Community   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![The Adoption Journey]({{ site.baseurl }}/assets/images/adoption-journey.svg)
 
 ### The 4 Maturity Levels
 

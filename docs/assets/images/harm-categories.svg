@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 340">
+  <defs>
+    <linearGradient id="directGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#c0392b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="indirectGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d68910;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="indivGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3498db;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2980b9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="socGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9b59b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8e44ad;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect x="10" y="10" width="630" height="320" fill="#ffffff" rx="10" stroke="#2c3e50" stroke-width="2"/>
+
+  <!-- Header -->
+  <rect x="10" y="10" width="630" height="50" fill="#2c3e50" rx="10"/>
+  <rect x="10" y="40" width="630" height="20" fill="#2c3e50"/>
+  <text x="325" y="42" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffffff" text-anchor="middle">HARM CATEGORIES</text>
+
+  <!-- Direct Harm -->
+  <rect x="40" y="80" width="275" height="100" fill="url(#directGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="177" y="105" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">DIRECT HARM</text>
+  <text x="60" y="130" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Dangerous information</text>
+  <text x="60" y="148" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Harmful instructions</text>
+  <text x="60" y="166" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Hateful content</text>
+
+  <!-- Indirect Harm -->
+  <rect x="335" y="80" width="275" height="100" fill="url(#indirectGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="472" y="105" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">INDIRECT HARM</text>
+  <text x="355" y="130" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Misinformation</text>
+  <text x="355" y="148" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Manipulation</text>
+  <text x="355" y="166" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Deception</text>
+
+  <!-- Individual Harm -->
+  <rect x="40" y="200" width="275" height="100" fill="url(#indivGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="177" y="225" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">INDIVIDUAL HARM</text>
+  <text x="60" y="250" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Privacy violation</text>
+  <text x="60" y="268" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Emotional distress</text>
+  <text x="60" y="286" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Financial/reputation damage</text>
+
+  <!-- Societal Harm -->
+  <rect x="335" y="200" width="275" height="100" fill="url(#socGrad)" rx="10" filter="url(#shadow)"/>
+  <text x="472" y="225" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#fff" text-anchor="middle">SOCIETAL HARM</text>
+  <text x="355" y="250" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Discrimination at scale</text>
+  <text x="355" y="268" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Trust erosion</text>
+  <text x="355" y="286" font-family="Arial, sans-serif" font-size="10" fill="#fff">- Power concentration</text>
+</svg>

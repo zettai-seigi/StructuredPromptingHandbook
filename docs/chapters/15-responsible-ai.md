@@ -42,42 +42,7 @@ One oversight        →    Systematic discrimination
 
 ### The Responsible AI Pyramid
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                 RESPONSIBLE AI PYRAMID                          │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│                          /\                                     │
-│                         /  \                                    │
-│                        /    \                                   │
-│                       /SOCIAL\                                  │
-│                      / IMPACT \                                 │
-│                     /──────────\                                │
-│                    /            \                               │
-│                   / TRANSPARENCY \                              │
-│                  /   & EXPLAIN.   \                             │
-│                 /──────────────────\                            │
-│                /                    \                           │
-│               /    FAIRNESS &        \                          │
-│              /       BIAS             \                         │
-│             /────────────────────────────\                      │
-│            /                              \                     │
-│           /      SAFETY & HARM             \                    │
-│          /        PREVENTION                \                   │
-│         /────────────────────────────────────\                  │
-│        /                                      \                 │
-│       /         ACCURACY & TRUTH               \                │
-│      /                                          \               │
-│     /────────────────────────────────────────────\              │
-│                                                                 │
-│  Foundation: Build on truth                                     │
-│  Layer 1: Prevent direct harm                                   │
-│  Layer 2: Ensure fairness                                       │
-│  Layer 3: Be transparent                                        │
-│  Peak: Consider broader impact                                  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![Responsible AI Pyramid]({{ site.baseurl }}/assets/images/responsible-ai-pyramid.svg)
 
 ---
 
@@ -111,24 +76,7 @@ One oversight        →    Systematic discrimination
 
 ### Types of Bias in AI Prompting
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    TYPES OF BIAS                                │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  PROMPT BIAS            MODEL BIAS          OUTPUT BIAS         │
-│  ┌─────────────┐       ┌─────────────┐     ┌─────────────┐     │
-│  │ Biased      │       │ Training    │     │ Biased      │     │
-│  │ framing     │       │ data bias   │     │ outcomes    │     │
-│  │             │   +   │             │  =  │             │     │
-│  │ Skewed      │       │ Algorithmic │     │ Unfair      │     │
-│  │ examples    │       │ patterns    │     │ impacts     │     │
-│  └─────────────┘       └─────────────┘     └─────────────┘     │
-│                                                                 │
-│  What you can control  What you can't     What you must check  │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![Types of Bias]({{ site.baseurl }}/assets/images/bias-types.svg)
 
 ### Common Bias Patterns
 
@@ -236,29 +184,7 @@ the logic behind your conclusions."
 
 ### Types of Potential Harm
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                    HARM CATEGORIES                              │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  DIRECT HARM                      INDIRECT HARM                 │
-│  ┌───────────────────────┐       ┌───────────────────────┐     │
-│  │ • Dangerous info      │       │ • Misinformation      │     │
-│  │ • Harmful instructions│       │ • Manipulation        │     │
-│  │ • Hateful content     │       │ • Deception           │     │
-│  │ • Illegal activities  │       │ • Unfair advantage    │     │
-│  └───────────────────────┘       └───────────────────────┘     │
-│                                                                 │
-│  INDIVIDUAL HARM                  SOCIETAL HARM                 │
-│  ┌───────────────────────┐       ┌───────────────────────┐     │
-│  │ • Privacy violation   │       │ • Discrimination      │     │
-│  │ • Emotional distress  │       │ • Trust erosion       │     │
-│  │ • Financial loss      │       │ • Job displacement    │     │
-│  │ • Reputation damage   │       │ • Power concentration │     │
-│  └───────────────────────┘       └───────────────────────┘     │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+![Harm Categories]({{ site.baseurl }}/assets/images/harm-categories.svg)
 
 ### Harm Prevention Guidelines
 

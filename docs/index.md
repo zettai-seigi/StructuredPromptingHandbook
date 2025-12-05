@@ -54,6 +54,8 @@ Structured prompting provides:
 
 The foundation of this handbook is built on seven interconnected pillars that together form the basis of effective AI communication:
 
+![7 Prompting Pillars]({{ site.baseurl }}/assets/images/7-prompting-pillars.svg)
+
 | Pillar | Name | Description |
 |:------:|:-----|:------------|
 | 1 | **Clarity** | Express intent without ambiguity |
@@ -68,6 +70,8 @@ The foundation of this handbook is built on seven interconnected pillars that to
 
 Measure and improve your prompting effectiveness:
 
+![5 Quality Dimensions]({{ site.baseurl }}/assets/images/5-quality-dimensions.svg)
+
 1. **Relevance** - Does the response address what was actually asked?
 2. **Accuracy** - Is the information factually correct?
 3. **Completeness** - Are all aspects of the request covered?
@@ -77,6 +81,8 @@ Measure and improve your prompting effectiveness:
 ### The 4 Maturity Levels
 
 Track your progression from novice to master:
+
+![4 Maturity Levels]({{ site.baseurl }}/assets/images/4-maturity-levels.svg)
 
 | Level | Stage | Characteristics |
 |:-----:|:------|:----------------|
