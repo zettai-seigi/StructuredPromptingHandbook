@@ -174,13 +174,13 @@ By studying this handbook, you will:
 
 A simple template for everyday prompting:
 
-```
-**C**ontext: [Background information]
-**R**ole: [Who the AI should be]
-**A**ction: [What to do]
-**F**ormat: [How to structure output]
-**T**one: [Style and voice]
-```
+| Letter | Element | Description |
+|:------:|:--------|:------------|
+| **C** | Context | Background information |
+| **R** | Role | Who the AI should be |
+| **A** | Action | What to do |
+| **F** | Format | How to structure output |
+| **T** | Tone | Style and voice |
 
 ### The Quality Checklist
 
