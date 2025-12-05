@@ -382,26 +382,14 @@ Violations may result in disciplinary action.
 
 ### Incident Response Process
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                 INCIDENT RESPONSE PROCESS                       │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│   1. DETECT         2. ASSESS           3. CONTAIN             │
-│   ┌─────────┐      ┌─────────┐        ┌─────────┐             │
-│   │Identify │─────▶│Determine│───────▶│ Stop    │             │
-│   │incident │      │severity │        │ impact  │             │
-│   └─────────┘      └─────────┘        └─────────┘             │
-│                                             │                   │
-│                                             ▼                   │
-│   6. IMPROVE       5. RECOVER          4. ERADICATE            │
-│   ┌─────────┐      ┌─────────┐        ┌─────────┐             │
-│   │ Update  │◀─────│ Resume  │◀───────│ Remove  │             │
-│   │ controls│      │ normal  │        │ cause   │             │
-│   └─────────┘      └─────────┘        └─────────┘             │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+| Step | Action | Description |
+|:----:|:-------|:------------|
+| 1 | **Detect** | Identify the incident |
+| 2 | **Assess** | Determine severity |
+| 3 | **Contain** | Stop the impact |
+| 4 | **Eradicate** | Remove the cause |
+| 5 | **Recover** | Resume normal operations |
+| 6 | **Improve** | Update controls to prevent recurrence |
 
 ### Incident Documentation Template
 

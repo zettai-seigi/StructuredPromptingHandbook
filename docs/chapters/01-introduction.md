@@ -123,14 +123,6 @@ For individual practitioners, structured prompting skills:
 
 Most users experience similar challenges:
 
-| Challenge | Symptom | Root Cause |
-|:----------|:--------|:-----------|
-| **Inconsistency** | Same prompt, different results | Insufficient constraints |
-| **Irrelevance** | Response misses the point | Unclear intent |
-| **Incompleteness** | Missing key information | Insufficient specification |
-| **Unusability** | Can't use the output directly | Poor format specification |
-| **Inefficiency** | Many iterations needed | No systematic approach |
-
 ![Diagnostic table showing five common prompting challenges with their symptoms and root causes: Inconsistency (variable results from insufficient constraints), Irrelevance (missed point from unclear intent), Incompleteness (missing info from insufficient specification), Unusability (output not directly usable from poor format), and Inefficiency (many iterations from no systematic approach).]({{ site.baseurl }}/images/Figure_01.4.jpeg){: .img-fluid }
 *Figure 1.4: Common Prompting Pain Points - Understanding the root causes of prompting challenges enables targeted improvement through specific techniques covered in this handbook.*
 

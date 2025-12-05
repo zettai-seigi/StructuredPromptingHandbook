@@ -32,13 +32,11 @@ After completing this chapter, you will be able to:
 
 AI systems amplify human decisions at scale. Prompts that seem harmless can produce harmful outcomes when applied broadly.
 
-```
-SMALL DECISION, BIG IMPACT
-─────────────────────────────────────────────────────
-One biased prompt    →    Thousands of biased outputs
-One careless phrase  →    Scaled misinformation
-One oversight        →    Systematic discrimination
-```
+| Small Decision | Big Impact |
+|:---------------|:-----------|
+| One biased prompt | Thousands of biased outputs |
+| One careless phrase | Scaled misinformation |
+| One oversight | Systematic discrimination |
 
 ### The Responsible AI Pyramid
 

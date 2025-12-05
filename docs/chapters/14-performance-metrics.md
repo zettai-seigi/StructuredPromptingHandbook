@@ -34,14 +34,12 @@ After completing this chapter, you will be able to:
 
 Without measurement, prompt engineering remains subjective. With measurement, it becomes a science.
 
-```
-WITHOUT METRICS                  WITH METRICS
-─────────────────────────────────────────────────────
-"It seems better"          →    "Accuracy improved 15%"
-"I think this works"       →    "95% pass rate on tests"
-"Users like it"            →    "4.2/5.0 satisfaction score"
-"It's faster somehow"      →    "Response time: 2.3s avg"
-```
+| Without Metrics | With Metrics |
+|:----------------|:-------------|
+| "It seems better" | "Accuracy improved 15%" |
+| "I think this works" | "95% pass rate on tests" |
+| "Users like it" | "4.2/5.0 satisfaction score" |
+| "It's faster somehow" | "Response time: 2.3s avg" |
 
 ### What to Measure
 

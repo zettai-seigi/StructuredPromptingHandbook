@@ -32,15 +32,13 @@ After completing this chapter, you will be able to:
 
 Prompt engineering without testing is like coding without debugging—you might get lucky, but you won't consistently produce quality results.
 
-```
-Without Testing                    With Testing
-─────────────────────────────────────────────────────
-Uncertain quality          →      Measured performance
-Random improvements        →      Systematic iteration
-Can't compare versions     →      A/B comparisons
-Hard to maintain           →      Regression detection
-Individual knowledge       →      Documented patterns
-```
+| Without Testing | With Testing |
+|:----------------|:-------------|
+| Uncertain quality | Measured performance |
+| Random improvements | Systematic iteration |
+| Can't compare versions | A/B comparisons |
+| Hard to maintain | Regression detection |
+| Individual knowledge | Documented patterns |
 
 ### The Testing Imperative
 
@@ -140,30 +138,6 @@ Test inputs should cover:
 
 **A/B testing** compares two or more prompt versions to determine which performs better on defined metrics.
 
-```
-        ┌─────────────────┐
-        │  Same Input(s)  │
-        └────────┬────────┘
-                 │
-      ┌──────────┴──────────┐
-      ▼                     ▼
-┌───────────┐         ┌───────────┐
-│ Prompt A  │         │ Prompt B  │
-└─────┬─────┘         └─────┬─────┘
-      │                     │
-      ▼                     ▼
-┌───────────┐         ┌───────────┐
-│ Output A  │         │ Output B  │
-└─────┬─────┘         └─────┬─────┘
-      │                     │
-      └──────────┬──────────┘
-                 ▼
-        ┌─────────────────┐
-        │    Compare      │
-        │    Results      │
-        └─────────────────┘
-```
-
 ![A/B testing comparison flow diagram. Starting with Same Input(s) box (blue) at top, splitting into two parallel paths: left path shows Prompt A (teal) producing Output A (teal), right path shows Prompt B (orange) producing Output B (orange). Both output paths merge at bottom into Compare Results box (green). Symmetrical layout emphasizes fair comparison between variants.]({{ site.baseurl }}/images/Figure_13.3.jpeg){: .img-fluid }
 *Figure 13.3: A/B testing flow—run the same inputs through two prompt variants and compare results.*
 
@@ -212,21 +186,12 @@ Prompt A (52% avg). Adopt Prompt B.
 
 Change only one thing at a time:
 
-```
-Version 1.0: Original prompt
-     │
-     │ Change: Add role specification
-     ▼
-Version 1.1: With role
-     │
-     │ Change: Add output format
-     ▼
-Version 1.2: With role + format
-     │
-     │ Change: Add constraints
-     ▼
-Version 1.3: With role + format + constraints
-```
+| Version | Description | Change Made |
+|:--------|:------------|:------------|
+| **1.0** | Original prompt | (baseline) |
+| **1.1** | With role | Add role specification |
+| **1.2** | With role + format | Add output format |
+| **1.3** | With role + format + constraints | Add constraints |
 
 ### The PDCA Cycle
 
@@ -253,19 +218,11 @@ Version 1.3: With role + format + constraints
 
 **Regression testing** ensures that improvements don't break things that were working.
 
-```
-New Feature Added:
-┌─────────────────────────────────────────────────────────────────┐
-│                                                                 │
-│  BEFORE: ✓ Function A  ✓ Function B  ✓ Function C              │
-│                                                                 │
-│  CHANGE: Add new capability                                     │
-│                                                                 │
-│  AFTER:  ? Function A  ? Function B  ? Function C              │
-│          (Need to verify these still work)                      │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-```
+| Stage | Function A | Function B | Function C |
+|:------|:----------:|:----------:|:----------:|
+| **Before** | ✓ Works | ✓ Works | ✓ Works |
+| **Change** | Add new capability |||
+| **After** | ? Verify | ? Verify | ? Verify |
 
 ### Building a Regression Suite
 

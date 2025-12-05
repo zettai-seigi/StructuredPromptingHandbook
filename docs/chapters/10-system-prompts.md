@@ -352,21 +352,12 @@ overcome blocks, and refine their craft.
 
 ### Consistency Challenges
 
-```
-Challenge                    Solution
-─────────────────────────────────────────────────
-Breaking character      │  Reinforce identity in system prompt
-                       │  Include explicit stay-in-character instructions
-                       │
-Drifting behavior      │  Be specific about behavior patterns
-                       │  Include negative examples (what NOT to do)
-                       │
-Inconsistent knowledge │  Define knowledge boundaries clearly
-                       │  Specify how to handle knowledge gaps
-                       │
-Tone variation         │  Provide tone examples
-                       │  Define specific word choices to use/avoid
-```
+| Challenge | Solution |
+|:----------|:---------|
+| **Breaking character** | Reinforce identity in system prompt; Include explicit stay-in-character instructions |
+| **Drifting behavior** | Be specific about behavior patterns; Include negative examples (what NOT to do) |
+| **Inconsistent knowledge** | Define knowledge boundaries clearly; Specify how to handle knowledge gaps |
+| **Tone variation** | Provide tone examples; Define specific word choices to use/avoid |
 
 ### Consistency Techniques
 
