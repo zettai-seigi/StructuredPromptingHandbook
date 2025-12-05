@@ -348,7 +348,8 @@ field is empty. Here's the current code: [code]"
 ```markdown
 ❌ BAD: "We're using React 16" (when actually on React 18)
 
-✅ GOOD: Verify context is current before including
+✅ GOOD: "We're using React 18.2 with the new concurrent features
+enabled. Our package.json shows react: ^18.2.0"
 ```
 
 ### Mistake 4: Implicit Assumptions
