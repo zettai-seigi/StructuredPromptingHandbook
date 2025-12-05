@@ -40,14 +40,6 @@ This isn't just about writing "better" prompts—it's about understanding *why* 
 
 ### Structured vs. Unstructured Prompting
 
-| Aspect | Unstructured Prompting | Structured Prompting |
-|:-------|:-----------------------|:---------------------|
-| **Approach** | Intuitive, trial-and-error | Systematic, framework-based |
-| **Consistency** | Variable results | Reproducible outcomes |
-| **Learning** | Individual discovery | Documented patterns |
-| **Scalability** | Hard to share | Teachable and transferable |
-| **Improvement** | Random optimization | Measurable iteration |
-
 ![Comparison table showing differences between structured and unstructured prompting across five dimensions: approach, consistency, learning, scalability, and improvement. Structured prompting uses systematic frameworks, produces reproducible outcomes, follows documented patterns, is teachable, and enables measurable iteration.]({{ site.baseurl }}/images/Figure_01.3.jpeg){: .img-fluid }
 *Figure 1.3: Structured vs. Unstructured Prompting - Structured prompting transforms AI interaction from guesswork into a systematic, repeatable discipline with measurable results.*
 
