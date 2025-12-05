@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Part V: Governance and Ethics"
-nav_order: 6
+nav_order: 7
 has_children: true
 permalink: /part-v-governance-ethics/
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Table of Contents
-nav_order: 8
+nav_order: 2
 permalink: /chapters/
 ---
 
