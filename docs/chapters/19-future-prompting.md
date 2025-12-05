@@ -118,40 +118,18 @@ Despite technological changes, core prompting skills will remain valuable:
 
 **1. Follow Key Sources**
 
-```markdown
-Information Sources:
-- AI company blogs (Anthropic, OpenAI, Google DeepMind)
-- Research papers (arXiv, conference proceedings)
-- Practitioner communities (Reddit, Discord, Forums)
-- Industry analysts and newsletters
-- This handbook (updated editions)
-```
+AI company blogs, research papers (arXiv), practitioner communities (Reddit, Discord), industry newsletters, and updated editions of this handbook.
 
 **2. Allocate Learning Time**
 
-```markdown
-Suggested Weekly Learning Schedule:
-
-Monday: 30 min - Read AI news and updates
-Wednesday: 30 min - Experiment with new techniques
-Friday: 30 min - Reflect and document learnings
-
-Monthly:
-- Deep dive into one new topic
-- Update your prompt library
-- Share learnings with others
-```
+| Frequency | Activity |
+|:----------|:---------|
+| **Weekly** | Mon: Read AI news (30 min), Wed: Experiment with techniques (30 min), Fri: Reflect and document (30 min) |
+| **Monthly** | Deep dive into one topic, update prompt library, share learnings |
 
 **3. Practice Deliberately**
 
-```markdown
-Deliberate Practice:
-1. Identify a skill gap
-2. Find resources to learn
-3. Practice in controlled settings
-4. Get feedback on results
-5. Refine and repeat
-```
+Identify skill gap → Find resources → Practice in controlled settings → Get feedback → Refine and repeat.
 
 ---
 
@@ -159,24 +137,13 @@ Deliberate Practice:
 
 ### Adaptable Prompt Practices
 
-```markdown
-## Principles for Adaptable Prompting
-
-### 1. Focus on Principles, Not Tricks
-Learn WHY techniques work, not just WHAT to type.
-
-### 2. Build Modular Prompt Libraries
-Create components that can be recombined as needs change.
-
-### 3. Abstract Patterns
-Identify patterns that transcend specific models or versions.
-
-### 4. Document Reasoning
-Record why prompts work so you can adapt when things change.
-
-### 5. Test Across Models
-Verify techniques work across different AI systems.
-```
+| Principle | Description |
+|:----------|:------------|
+| **Focus on Principles** | Learn WHY techniques work, not just WHAT to type |
+| **Build Modular Libraries** | Create components that can be recombined as needs change |
+| **Abstract Patterns** | Identify patterns that transcend specific models or versions |
+| **Document Reasoning** | Record why prompts work so you can adapt when things change |
+| **Test Across Models** | Verify techniques work across different AI systems |
 
 ### Future-Proof Skills
 
@@ -196,21 +163,10 @@ Verify techniques work across different AI systems.
 
 ### Career Development Path
 
-```markdown
-## AI Prompting Career Progression
-
-### Individual Contributor Track
-1. Prompt User → Uses AI effectively for own work
-2. Prompt Specialist → Creates prompts for team/org
-3. Prompt Engineer → Designs systems using AI
-4. Senior Prompt Engineer → Leads complex AI implementations
-
-### Leadership Track
-1. Team Lead → Manages prompt engineering team
-2. Manager → Strategy and team development
-3. Director → Organization-wide AI strategy
-4. VP/Chief AI Officer → Executive AI leadership
-```
+| Track | Progression |
+|:------|:------------|
+| **Individual Contributor** | Prompt User → Prompt Specialist → Prompt Engineer → Senior Prompt Engineer |
+| **Leadership** | Team Lead → Manager → Director → VP/Chief AI Officer |
 
 ---
 
@@ -218,45 +174,17 @@ Verify techniques work across different AI systems.
 
 ### Learning from Others
 
-```markdown
-## Engaging with the Community
+**Join communities:** Reddit (r/ChatGPT, r/MachineLearning), Discord servers, LinkedIn AI groups, local meetups.
 
-### Join Communities
-- Subreddits: r/ChatGPT, r/MachineLearning
-- Discord servers for AI enthusiasts
-- LinkedIn AI groups
-- Local AI meetups
-
-### Participate Actively
-- Ask questions
-- Share discoveries
-- Help newcomers
-- Provide feedback on others' prompts
-```
+**Participate actively:** Ask questions, share discoveries, help newcomers, provide feedback.
 
 ### Giving Back
 
-```markdown
-## Ways to Contribute
-
-### Share Knowledge
-- Write blog posts
-- Create tutorials
-- Answer questions
-- Mentor beginners
-
-### Build Resources
-- Open-source prompt libraries
-- Testing frameworks
-- Documentation
-- Best practice guides
-
-### Advance the Field
-- Publish research
-- Develop new techniques
-- Create tools
-- Present at conferences
-```
+| Category | Activities |
+|:---------|:-----------|
+| **Share Knowledge** | Write blog posts, create tutorials, answer questions, mentor beginners |
+| **Build Resources** | Open-source prompt libraries, testing frameworks, documentation, best practice guides |
+| **Advance the Field** | Publish research, develop new techniques, create tools, present at conferences |
 
 ---
 
@@ -264,61 +192,24 @@ Verify techniques work across different AI systems.
 
 ### Principles for Ongoing Growth
 
-```markdown
-## Continuous Improvement Principles
-
-1. EMBRACE CHANGE
-   AI is evolving rapidly. Expect and welcome change.
-
-2. STAY HUMBLE
-   Today's expertise may be outdated tomorrow.
-   Keep learning.
-
-3. SHARE OPENLY
-   The field advances faster when knowledge is shared.
-
-4. EXPERIMENT BOLDLY
-   Try new things. Many won't work. Some will be breakthroughs.
-
-5. REFLECT REGULARLY
-   Periodically assess your skills and update your approach.
-
-6. BUILD ON FUNDAMENTALS
-   Strong foundations enable adaptation to new developments.
-
-7. MAINTAIN BALANCE
-   Technical skills matter, but so do ethics and wisdom.
-```
+| Principle | Description |
+|:----------|:------------|
+| **Embrace Change** | AI is evolving rapidly—expect and welcome change |
+| **Stay Humble** | Today's expertise may be outdated tomorrow—keep learning |
+| **Share Openly** | The field advances faster when knowledge is shared |
+| **Experiment Boldly** | Try new things—many won't work, some will be breakthroughs |
+| **Reflect Regularly** | Periodically assess your skills and update your approach |
+| **Build on Fundamentals** | Strong foundations enable adaptation to new developments |
+| **Maintain Balance** | Technical skills matter, but so do ethics and wisdom |
 
 ### Your Personal AI Learning Journey
 
-```markdown
-## Personal Learning Plan Template
-
-### Current State (Assess Quarterly)
-- Skill level: [Novice/Practitioner/Expert/Master]
-- Key strengths: ___
-- Areas for growth: ___
-- Recent learnings: ___
-
-### Goals (Set Annually)
-- Technical goals: ___
-- Professional goals: ___
-- Learning goals: ___
-- Contribution goals: ___
-
-### Actions (Plan Monthly)
-- Learning activities: ___
-- Experiments to try: ___
-- Content to create: ___
-- Community engagement: ___
-
-### Reflection (Review Quarterly)
-- What worked well: ___
-- What to change: ___
-- Unexpected discoveries: ___
-- Revised priorities: ___
-```
+| Phase | Focus Areas |
+|:------|:------------|
+| **Current State** (Quarterly) | Skill level, key strengths, areas for growth, recent learnings |
+| **Goals** (Annually) | Technical goals, professional goals, learning goals, contribution goals |
+| **Actions** (Monthly) | Learning activities, experiments to try, content to create, community engagement |
+| **Reflection** (Quarterly) | What worked well, what to change, unexpected discoveries, revised priorities |
 
 ---
 

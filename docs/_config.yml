@@ -5,7 +5,8 @@ url: "https://zettai-seigi.github.io"
 
 remote_theme: just-the-docs/just-the-docs
 
-color_scheme: light
+# Color scheme - supports light, dark, or auto (follows system preference)
+color_scheme: nil
 
 search_enabled: true
 search.heading_level: 3
