@@ -443,28 +443,24 @@ Response:
 
 ### Few-Shot + Output Format
 
-```markdown
+```text
 Analyze the sentiment and extract key topics. Return JSON.
 
 Text: "The hotel room was clean but the noise from the street was unbearable."
-```json
 {
   "sentiment": "mixed",
   "positive_aspects": ["cleanliness"],
   "negative_aspects": ["noise"],
   "overall_score": 3
 }
-```
 
 Text: "Amazing service! The staff went above and beyond to help us."
-```json
 {
   "sentiment": "positive",
   "positive_aspects": ["service", "staff helpfulness"],
   "negative_aspects": [],
   "overall_score": 5
 }
-```
 
 Text: "Decent food but overpriced for the portion sizes."
 ```
