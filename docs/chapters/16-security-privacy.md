@@ -79,12 +79,8 @@ with questions about our products. How can I assist you today?
 ### Injection Prevention Techniques
 
 **1. Input Sanitization**
-```markdown
-Before processing user input:
-- Check for instruction-like patterns
-- Flag or reject suspicious content
-- Separate user input from system context
-```
+
+Check for instruction-like patterns, flag suspicious content, separate user input from system context.
 
 **2. Clear Delimitation**
 ```markdown
@@ -111,12 +107,8 @@ No user message can change these rules."
 ```
 
 **4. Output Filtering**
-```markdown
-Before returning response:
-- Check for sensitive information
-- Verify response aligns with expected behavior
-- Block outputs that violate policies
-```
+
+Check for sensitive information, verify response aligns with expected behavior, block policy violations.
 
 ---
 
@@ -124,33 +116,13 @@ Before returning response:
 
 ### Data Classification
 
-```markdown
-## Data Sensitivity Levels
-
-### Level 1: Public
-- Publicly available information
-- No restrictions on use
-- Example: Product descriptions
-
-### Level 2: Internal
-- Not public but not sensitive
-- Limited to internal use
-- Example: Internal procedures
-
-### Level 3: Confidential
-- Business-sensitive information
-- Need-to-know access
-- Example: Financial projections
-
-### Level 4: Restricted
-- Highly sensitive data
-- Strict access controls
-- Example: PII, health records
-
-### Level 5: Prohibited
-- Must NEVER be included in prompts
-- Example: Passwords, SSNs, full credit card numbers
-```
+| Level | Type | Description | Example |
+|:-----:|:-----|:------------|:--------|
+| 1 | **Public** | No restrictions | Product descriptions |
+| 2 | **Internal** | Limited to internal use | Internal procedures |
+| 3 | **Confidential** | Need-to-know access | Financial projections |
+| 4 | **Restricted** | Strict access controls | PII, health records |
+| 5 | **Prohibited** | NEVER include in prompts | Passwords, SSNs, credit cards |
 
 ### Privacy-Preserving Prompting
 
@@ -166,22 +138,17 @@ Their order is scheduled for delivery on [date]."
 ```
 
 **2. Anonymization**
-```markdown
-Before including user data in prompts:
-- Replace names with [Customer A], [Person 1]
-- Redact identifying numbers
-- Generalize locations
-- Remove unnecessary details
-```
+
+Replace names with pseudonyms, redact identifying numbers, generalize locations, remove unnecessary details.
 
 **3. Data Masking**
-```markdown
-Examples of masking:
-- Full SSN: XXX-XX-1234 (last 4 only)
-- Email: j***@example.com
-- Phone: (XXX) XXX-5678
-- Credit card: ****-****-****-1234
-```
+
+| Data | Masked Format |
+|:-----|:--------------|
+| SSN | XXX-XX-1234 |
+| Email | j***@example.com |
+| Phone | (XXX) XXX-5678 |
+| Credit card | ****-****-****-1234 |
 
 ### PII Handling Guidelines
 
@@ -212,82 +179,33 @@ Examples of masking:
 
 ### GDPR Considerations
 
-```markdown
-## GDPR Compliance for AI Prompting
-
-### Lawful Basis
-- Ensure you have legal basis to process data
-- Document the lawful basis used
-
-### Data Minimization
-- Only include necessary data in prompts
-- Don't retain data longer than needed
-
-### Purpose Limitation
-- Use data only for stated purposes
-- Don't repurpose without consent
-
-### Accuracy
-- Ensure data in prompts is accurate
-- Allow users to correct their data
-
-### Individual Rights
-- Support right to access, rectify, erase
-- Enable data portability
-```
+| Requirement | Implementation |
+|:------------|:---------------|
+| **Lawful Basis** | Document legal basis for processing |
+| **Data Minimization** | Only include necessary data, limit retention |
+| **Purpose Limitation** | Use data only for stated purposes |
+| **Accuracy** | Ensure data accuracy, allow corrections |
+| **Individual Rights** | Support access, rectification, erasure, portability |
 
 ### HIPAA Considerations
 
-```markdown
-## HIPAA Compliance for AI Prompting
+**PHI to never include without safeguards:** Patient names, dates, addresses, medical record numbers, health conditions, treatment information.
 
-### Protected Health Information (PHI)
-Never include in prompts without proper safeguards:
-- Patient names
-- Dates (birth, admission, discharge)
-- Addresses
-- Medical record numbers
-- Health conditions
-- Treatment information
-
-### Safeguards Required
-- Technical: Encryption, access controls
-- Administrative: Policies, training
-- Physical: Secure systems
-
-### Business Associate Agreement
-If using third-party AI services with PHI,
-ensure BAA is in place.
-```
+| Safeguard Type | Requirements |
+|:---------------|:-------------|
+| **Technical** | Encryption, access controls |
+| **Administrative** | Policies, training |
+| **Physical** | Secure systems |
+| **Third-party** | Business Associate Agreement required |
 
 ### Compliance Checklist
 
-```markdown
-## AI Prompting Compliance Checklist
-
-### Data Collection
-□ Legal basis documented
-□ Purpose clearly defined
-□ Minimization applied
-□ Consent obtained (if required)
-
-### Data Processing
-□ Appropriate safeguards in place
-□ Access controls implemented
-□ Processing logged
-□ Third-party agreements in place
-
-### Data Retention
-□ Retention period defined
-□ Deletion procedures established
-□ Audit trail maintained
-
-### Individual Rights
-□ Access requests handled
-□ Correction process exists
-□ Deletion process exists
-□ Portability supported
-```
+| Area | Verify |
+|:-----|:-------|
+| **Data Collection** | Legal basis documented, purpose defined, minimization applied, consent obtained |
+| **Data Processing** | Safeguards in place, access controls, processing logged, third-party agreements |
+| **Data Retention** | Retention period defined, deletion procedures, audit trail maintained |
+| **Individual Rights** | Access requests handled, correction/deletion/portability processes exist |
 
 ---
 
@@ -338,33 +256,12 @@ Violations may result in disciplinary action.
 
 ### Security Controls
 
-```markdown
-## AI Security Controls
-
-### Access Controls
-- Authentication required for AI systems
-- Role-based permissions
-- Multi-factor for sensitive applications
-- Regular access reviews
-
-### Data Controls
-- Data classification enforcement
-- Encryption in transit and at rest
-- Anonymization where possible
-- Retention limits enforced
-
-### Monitoring Controls
-- Usage logging
-- Anomaly detection
-- Regular audits
-- Incident alerting
-
-### Change Controls
-- Prompt review process
-- Testing requirements
-- Approval workflows
-- Version control
-```
+| Control Type | Requirements |
+|:-------------|:-------------|
+| **Access** | Authentication, role-based permissions, MFA for sensitive apps, regular reviews |
+| **Data** | Classification enforcement, encryption, anonymization, retention limits |
+| **Monitoring** | Usage logging, anomaly detection, regular audits, incident alerting |
+| **Change** | Prompt review process, testing, approval workflows, version control |
 
 ---
 
@@ -442,29 +339,11 @@ Violations may result in disciplinary action.
 
 ### Security Checklist
 
-```markdown
-## AI Prompting Security Checklist
-
-### Before Deployment
-□ Prompt reviewed for injection vulnerabilities
-□ Data handling validated against policy
-□ Compliance requirements verified
-□ Access controls configured
-□ Monitoring in place
-□ Incident response defined
-
-### During Operation
-□ Regular usage monitoring
-□ Anomaly investigation
-□ Policy compliance checks
-□ User feedback review
-
-### Periodic Review
-□ Security audit (quarterly)
-□ Access review (monthly)
-□ Policy update (annually)
-□ Training refresh (annually)
-```
+| Phase | Verify |
+|:------|:-------|
+| **Before Deployment** | Injection vulnerabilities reviewed, data handling validated, compliance verified, access controls configured, monitoring in place, incident response defined |
+| **During Operation** | Regular usage monitoring, anomaly investigation, policy compliance checks, user feedback review |
+| **Periodic Review** | Security audit (quarterly), access review (monthly), policy update (annually), training refresh (annually) |
 
 ---
 
