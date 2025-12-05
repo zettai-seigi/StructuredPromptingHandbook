@@ -1,0 +1,30 @@
+title: Structured Prompting Handbook
+description: Frameworks for AI Success - A Comprehensive Guide to Effective AI Prompting
+baseurl: "/StructuredPromptingHandbook"
+url: "https://zettai-seigi.github.io"
+
+theme: just-the-docs
+
+color_scheme: light
+
+search_enabled: true
+search.heading_level: 3
+search.previews: 3
+
+heading_anchors: true
+
+nav_sort: case_insensitive
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Structured Prompting Handbook - MIT License"
+
+plugins:
+  - jekyll-seo-tag
+
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/zettai-seigi/StructuredPromptingHandbook"
+
+aux_links_new_tab: true
