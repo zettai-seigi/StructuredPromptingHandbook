@@ -451,44 +451,11 @@ identify the 3 most significant events and their implications.
 
 ## Best Practice Checklist
 
-### Pre-Prompt Checklist
-
-```markdown
-Before writing your prompt:
-
-□ Clear on what I want to achieve
-□ Know what context is needed
-□ Have decided on output format
-□ Identified any constraints
-□ Prepared examples if helpful
-□ Know how I'll evaluate success
-```
-
-### During-Prompt Checklist
-
-```markdown
-While writing your prompt:
-
-□ Intent is explicitly stated
-□ Relevant context is included
-□ Format is specified
-□ Constraints are defined
-□ No conflicting instructions
-□ Language is unambiguous
-```
-
-### Post-Prompt Checklist
-
-```markdown
-After receiving output:
-
-□ Output addresses the request
-□ Format matches specification
-□ Quality meets requirements
-□ No obvious errors
-□ Usable for intended purpose
-□ Documented if successful
-```
+| Phase | Verify |
+|:------|:-------|
+| **Pre-Prompt** | Clear goal, context identified, output format decided, constraints known, examples prepared, success criteria defined |
+| **During-Prompt** | Intent explicit, context included, format specified, constraints defined, no conflicts, unambiguous language |
+| **Post-Prompt** | Addresses request, format matches spec, quality meets requirements, no errors, usable for purpose, documented if successful |
 
 ---
 
