@@ -370,36 +370,34 @@ user_id exists. Query: [query]"
 
 ### Template: Code Help
 
-```markdown
-**Language/Framework:** [e.g., Python 3.9, Django 4.0]
-**File/Location:** [e.g., src/auth/views.py]
-**What it should do:** [Expected behavior]
-**What it actually does:** [Current behavior]
-**Error message (if any):** [Full error text]
-**What I've tried:** [Previous attempts]
+```text
+Language/Framework: [e.g., Python 3.9, Django 4.0]
+File/Location: [e.g., src/auth/views.py]
+What it should do: [Expected behavior]
+What it actually does: [Current behavior]
+Error message (if any): [Full error text]
+What I've tried: [Previous attempts]
 
-**Code:**
-```[language]
-[relevant code]
-```
+Code:
+[Insert relevant code here]
 
-**Request:** [Specific question]
+Request: [Specific question]
 ```
 
 ### Template: Analysis Request
 
-```markdown
-**Domain:** [Industry/field]
-**Data Description:** [What the data represents]
-**Data Format:** [CSV, JSON, etc. with schema]
-**Analysis Goal:** [What insight you seek]
-**Constraints:** [Time, tools, format requirements]
-**Audience:** [Who will use the analysis]
+```text
+Domain: [Industry/field]
+Data Description: [What the data represents]
+Data Format: [CSV, JSON, etc. with schema]
+Analysis Goal: [What insight you seek]
+Constraints: [Time, tools, format requirements]
+Audience: [Who will use the analysis]
 
-**Data Sample:**
+Data Sample:
 [Representative sample]
 
-**Request:** [Specific analysis needed]
+Request: [Specific analysis needed]
 ```
 
 ---
