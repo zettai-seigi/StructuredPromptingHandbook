@@ -34,7 +34,25 @@ After completing this chapter, you will be able to:
 
 **Multi-turn**: Series of exchanges that build on each other
 
-![Multi-Turn Conversation Flow]({{ site.baseurl }}/assets/images/multi-turn-flow.svg)
+```
+SINGLE-TURN
+┌──────────┐       ┌──────────┐
+│  Prompt  │──────▶│ Response │
+└──────────┘       └──────────┘
+
+MULTI-TURN
+┌──────────┐       ┌──────────┐
+│ Prompt 1 │──────▶│Response 1│─────┐
+└──────────┘       └──────────┘     │
+                                    │ Context carries forward
+┌──────────┐       ┌──────────┐     │
+│ Prompt 2 │──────▶│Response 2│◀────┘
+└──────────┘       └──────────┘     │
+                                    │
+┌──────────┐       ┌──────────┐     │
+│ Prompt 3 │──────▶│Response 3│◀────┘
+└──────────┘       └──────────┘
+```
 
 ### Key Challenges
 
@@ -124,7 +142,37 @@ Start ─→ Hub ─ Topic B ─┤─→ End
 
 ### Types of State
 
-![Conversation State]({{ site.baseurl }}/assets/images/conversation-state.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    CONVERSATION STATE                           │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │ USER STATE                                               │   │
+│  │ • Identified preferences                                │   │
+│  │ • Expressed needs                                       │   │
+│  │ • Skill/knowledge level                                 │   │
+│  │ • Emotional state                                       │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │ TASK STATE                                               │   │
+│  │ • Current stage of task                                 │   │
+│  │ • Completed steps                                       │   │
+│  │ • Pending items                                         │   │
+│  │ • Decisions made                                        │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │ CONTEXT STATE                                            │   │
+│  │ • Established facts                                     │   │
+│  │ • Shared references                                     │   │
+│  │ • Previously discussed topics                           │   │
+│  │ • Agreed definitions                                    │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Explicit State Tracking
 

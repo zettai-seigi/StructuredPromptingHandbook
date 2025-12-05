@@ -100,7 +100,30 @@ The examples communicate tone, formality level, and transformation patterns more
 
 ### The Selection Process
 
-![Example Selection Process]({{ site.baseurl }}/assets/images/example-selection-process.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│               EXAMPLE SELECTION PROCESS                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  1. IDENTIFY the target task pattern                            │
+│      │                                                          │
+│      ▼                                                          │
+│  2. BRAINSTORM potential example inputs                         │
+│      │                                                          │
+│      ▼                                                          │
+│  3. FILTER for diversity and representativeness                 │
+│      │                                                          │
+│      ▼                                                          │
+│  4. CREATE ideal outputs for each input                         │
+│      │                                                          │
+│      ▼                                                          │
+│  5. ORDER from simple to complex                                │
+│      │                                                          │
+│      ▼                                                          │
+│  6. TEST with target inputs to verify pattern transfer          │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Example Diversity Strategy
 

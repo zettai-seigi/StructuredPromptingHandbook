@@ -44,7 +44,21 @@ Individual knowledge       →      Documented patterns
 
 ### The Testing Imperative
 
-![Testing Benefits]({{ site.baseurl }}/assets/images/testing-benefits.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│              PROMPT TESTING BENEFITS                            │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  QUALITY        EFFICIENCY       CONFIDENCE      KNOWLEDGE      │
+│  ┌─────────┐   ┌─────────┐     ┌─────────┐    ┌─────────┐     │
+│  │ Catch   │   │ Find    │     │ Know it │    │ Learn   │     │
+│  │ issues  │   │ optimal │     │ works   │    │ what    │     │
+│  │ early   │   │ prompts │     │ before  │    │ works   │     │
+│  │         │   │ faster  │     │ deploy  │    │ & why   │     │
+│  └─────────┘   └─────────┘     └─────────┘    └─────────┘     │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -52,7 +66,30 @@ Individual knowledge       →      Documented patterns
 
 ### Overview
 
-![Prompt Testing Lifecycle]({{ site.baseurl }}/assets/images/testing-lifecycle.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                  PROMPT TESTING LIFECYCLE                       │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│   ┌──────────┐    ┌──────────┐    ┌──────────┐                │
+│   │ 1.DESIGN │───▶│ 2. TEST  │───▶│3.ANALYZE │                │
+│   │  Prompt  │    │ Execute  │    │ Results  │                │
+│   └──────────┘    └──────────┘    └──────────┘                │
+│        ▲                               │                        │
+│        │                               ▼                        │
+│        │         ┌──────────┐    ┌──────────┐                  │
+│        └─────────│5. ITERATE│◀───│4.EVALUATE│                  │
+│                  │ Refine   │    │ Score    │                  │
+│                  └──────────┘    └──────────┘                  │
+│                        │                                        │
+│                        ▼                                        │
+│                  ┌──────────┐                                  │
+│                  │6.DOCUMENT│                                  │
+│                  │& Deploy  │                                  │
+│                  └──────────┘                                  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Stage Details
 
@@ -138,7 +175,29 @@ Test inputs should cover:
 
 **A/B testing** compares two or more prompt versions to determine which performs better on defined metrics.
 
-![A/B Testing]({{ site.baseurl }}/assets/images/ab-testing.svg)
+```
+        ┌─────────────────┐
+        │  Same Input(s)  │
+        └────────┬────────┘
+                 │
+      ┌──────────┴──────────┐
+      ▼                     ▼
+┌───────────┐         ┌───────────┐
+│ Prompt A  │         │ Prompt B  │
+└─────┬─────┘         └─────┬─────┘
+      │                     │
+      ▼                     ▼
+┌───────────┐         ┌───────────┐
+│ Output A  │         │ Output B  │
+└─────┬─────┘         └─────┬─────┘
+      │                     │
+      └──────────┬──────────┘
+                 ▼
+        ┌─────────────────┐
+        │    Compare      │
+        │    Results      │
+        └─────────────────┘
+```
 
 ### A/B Test Design
 
@@ -236,7 +295,31 @@ Version 1.3: With role + format + constraints
 
 **Plan-Do-Check-Act** for prompt iteration:
 
-![PDCA Cycle]({{ site.baseurl }}/assets/images/pdca-cycle.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                      PDCA CYCLE                                 │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│         PLAN                              DO                    │
+│    ┌─────────────┐                  ┌─────────────┐            │
+│    │ Identify    │                  │ Implement   │            │
+│    │ improvement │                  │ change      │            │
+│    │ opportunity │                  │             │            │
+│    └──────┬──────┘                  └──────┬──────┘            │
+│           │                                │                    │
+│           └────────────────┬───────────────┘                    │
+│                            │                                    │
+│           ┌────────────────┴───────────────┐                    │
+│           │                                │                    │
+│    ┌──────┴──────┐                  ┌──────┴──────┐            │
+│    │ Standardize │                  │ Test and    │            │
+│    │ if it works │                  │ measure     │            │
+│    │             │                  │             │            │
+│    └─────────────┘                  └─────────────┘            │
+│         ACT                              CHECK                  │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Iteration Best Practices
 

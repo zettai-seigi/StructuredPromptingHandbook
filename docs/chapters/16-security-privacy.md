@@ -30,7 +30,29 @@ After completing this chapter, you will be able to:
 
 ### The Security Landscape
 
-![Security Risk Landscape]({{ site.baseurl }}/assets/images/security-risk-landscape.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    SECURITY RISK LANDSCAPE                      │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  PROMPT-LEVEL RISKS          SYSTEM-LEVEL RISKS                 │
+│  ┌───────────────────┐      ┌───────────────────┐              │
+│  │ • Prompt injection │      │ • API key exposure │              │
+│  │ • Jailbreaking     │      │ • Data exfiltration│              │
+│  │ • Data leakage     │      │ • Unauthorized use │              │
+│  │ • Social engineer. │      │ • Model extraction │              │
+│  └───────────────────┘      └───────────────────┘              │
+│                                                                 │
+│  USER-LEVEL RISKS            OUTPUT-LEVEL RISKS                 │
+│  ┌───────────────────┐      ┌───────────────────┐              │
+│  │ • Oversharing PII  │      │ • Sensitive info   │              │
+│  │ • Unintended disc. │      │ • Harmful content  │              │
+│  │ • Trust exploitation│     │ • Malicious code   │              │
+│  │ • Privacy violation│      │ • Misinformation   │              │
+│  └───────────────────┘      └───────────────────┘              │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Key Security Threats
 

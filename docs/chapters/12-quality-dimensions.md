@@ -32,7 +32,38 @@ After completing this chapter, you will be able to:
 
 The **5 Quality Dimensions** provide a comprehensive framework for evaluating the effectiveness of AI prompts and their resulting outputs:
 
-![5 Quality Dimensions]({{ site.baseurl }}/assets/images/5-quality-dimensions.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    5 QUALITY DIMENSIONS                         │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │  1. RELEVANCE                                            │   │
+│  │     Does it address what was actually asked?             │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │  2. ACCURACY                                             │   │
+│  │     Is the information factually correct?                │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │  3. COMPLETENESS                                         │   │
+│  │     Are all aspects of the request covered?              │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │  4. COHERENCE                                            │   │
+│  │     Is it logically structured and easy to follow?       │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+│  ┌─────────────────────────────────────────────────────────┐   │
+│  │  5. ACTIONABILITY                                        │   │
+│  │     Can the output be directly used for its purpose?     │   │
+│  └─────────────────────────────────────────────────────────┘   │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Summary Table
 
@@ -209,7 +240,26 @@ you couldn't fully address."
 
 ### Coherence Elements
 
-![Coherence Elements]({{ site.baseurl }}/assets/images/coherence-elements.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    COHERENCE ELEMENTS                           │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  ORGANIZATION        FLOW             CLARITY                   │
+│  ┌─────────────┐    ┌─────────────┐  ┌─────────────┐           │
+│  │ Clear       │    │ Logical     │  │ Unambiguous │           │
+│  │ sections    │    │ progression │  │ language    │           │
+│  │             │    │             │  │             │           │
+│  │ Proper      │    │ Smooth      │  │ Consistent  │           │
+│  │ hierarchy   │    │ transitions │  │ terminology │           │
+│  │             │    │             │  │             │           │
+│  │ Consistent  │    │ No jumps    │  │ No jargon   │           │
+│  │ formatting  │    │ or gaps     │  │ without     │           │
+│  │             │    │             │  │ definition  │           │
+│  └─────────────┘    └─────────────┘  └─────────────┘           │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Improving Coherence
 
@@ -347,7 +397,35 @@ Action: □ Use as-is  □ Minor edit  □ Re-prompt
 
 ### The Improvement Cycle
 
-![Quality Improvement Cycle]({{ site.baseurl }}/assets/images/quality-improvement-cycle.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                  QUALITY IMPROVEMENT CYCLE                      │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│     ┌──────────┐                                               │
+│     │   RUN    │ Execute prompt                                │
+│     └────┬─────┘                                               │
+│          │                                                      │
+│          ▼                                                      │
+│     ┌──────────┐                                               │
+│     │  ASSESS  │ Score on 5 dimensions                         │
+│     └────┬─────┘                                               │
+│          │                                                      │
+│          ▼                                                      │
+│     ┌──────────┐        ┌──────────┐                          │
+│     │ IDENTIFY │───────▶│  REVISE  │ Improve prompt            │
+│     │  GAPS    │ Issues │          │                           │
+│     └────┬─────┘ found  └────┬─────┘                          │
+│          │                   │                                  │
+│          │ No issues         │                                  │
+│          ▼                   │                                  │
+│     ┌──────────┐            │                                  │
+│     │ DOCUMENT │◀───────────┘                                  │
+│     │ SUCCESS  │                                               │
+│     └──────────┘                                               │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ### Prioritizing Improvements
 

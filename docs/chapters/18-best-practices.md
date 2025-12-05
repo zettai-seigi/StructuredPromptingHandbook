@@ -32,7 +32,29 @@ After completing this chapter, you will be able to:
 
 Effective prompting follows consistent principles:
 
-![Prompting Best Practices]({{ site.baseurl }}/assets/images/prompting-best-practices.svg)
+```
+┌─────────────────────────────────────────────────────────────────┐
+│                    PROMPTING BEST PRACTICES                     │
+├─────────────────────────────────────────────────────────────────┤
+│                                                                 │
+│  BE CLEAR         BE SPECIFIC       BE COMPLETE                │
+│  ┌─────────┐     ┌─────────┐       ┌─────────┐                │
+│  │ State   │     │ Define  │       │ Include │                │
+│  │ intent  │     │ exactly │       │ all     │                │
+│  │ clearly │     │ what    │       │ needed  │                │
+│  │         │     │ you want│       │ info    │                │
+│  └─────────┘     └─────────┘       └─────────┘                │
+│                                                                 │
+│  BE STRUCTURED    BE ITERATIVE      BE HUMBLE                  │
+│  ┌─────────┐     ┌─────────┐       ┌─────────┐                │
+│  │ Use     │     │ Refine  │       │ Accept  │                │
+│  │ formats │     │ based   │       │ AI      │                │
+│  │ and     │     │ on      │       │ limita- │                │
+│  │ patterns│     │ results │       │ tions   │                │
+│  └─────────┘     └─────────┘       └─────────┘                │
+│                                                                 │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
